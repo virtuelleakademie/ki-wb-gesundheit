@@ -143,3 +143,4 @@ cython_debug/
 ki-wb-gesundheit.code-workspace
 
 /.quarto/
+.Rproj.user
