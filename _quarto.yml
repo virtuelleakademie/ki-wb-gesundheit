@@ -1,13 +1,21 @@
 project:
   type: website
+  preview:
+    port: 8800
+    browser: false
+  output-dir: docs
+  render:
+    # - pages/*.ipynb
+    - pages/*.qmd
+    - slides/*.qmd
 
 website:
   title: "ki-wb-gesundheit"
   navbar:
     left:
-      - href: index.qmd
+      - href: pages/index.qmd
         text: Home
-      - about.qmd
+      - pages/about.qmd
 
 format:
   html:
