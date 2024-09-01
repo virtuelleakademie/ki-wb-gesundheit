@@ -10,18 +10,128 @@ project:
     - slides/*.qmd
 
 website:
-  title: "ki-wb-gesundheit"
+  title: "KI Weiterbildung Gesundheit //"
+  site-url: https://virtuelleakademie.github.io/ki-wb-gesundheit
+  repo-url: https://github.com/virtuelleakademie/ki-wb-gesundheit
+  # repo-actions: [edit, issue]
+  favicon: /assets/robot.png
+  open-graph: true
+  search:
+    location: navbar
+    type: overlay
+    # type: textbox
+  twitter-card:
+    creator: "@awellis"
+    card-style: summary_large_image
+
+  reader-mode: false
+  page-navigation: true
+  back-to-top-navigation: true
+
+  # Bootstrap icons: https://icons.getbootstrap.com/
   navbar:
+    # title: false
+    # logo: /assets/robot.png
+    background: light
     left:
-      - href: pages/index.qmd
-        text: Home
-      - pages/about.qmd
+      # - text: "🏠 Home"
+      #   file: pages/index.qmd
+      - icon: calendar-event #house-door
+        text: "Agenda" # {{< fa calendar >}}
+        file: pages/agenda.qmd
+
+      - icon: file-slides
+        text: "Slides" # {{< fa person-chalkboard >}}
+        menu:
+          - text: "Workshop"
+            # file: slides/workshop.qmd
+          - text: "Präsentation: WB Lindenhofspital, 09.09.2024"
+            file: slides/wb-lindenhofspital.qmd
+
+
+      - icon: brush #pencil-square
+        text: "Activities"
+        menu:
+          # - text: "Activities"
+          #   file: pages/activities.qmd
+          - text: "Activity"
+            file: pages/activity.qmd
+
+      - icon: book
+        text: "Tutorials"
+        menu:
+          - text: "Text representation: embeddings"
+            # file: pages/text-representation.qmd
+
+      - icon: archive
+        text: "Archive"
+        menu:
+          - text: "Part 1: What is ChatGPT?"
+            # file: slides/00-introduction.qmd
+
+      - icon: wrench-adjustable #tools
+        text: "Resources"
+        menu:
+          - text: "Guides"
+            file: pages/resources.qmd
+          - text: "Tools"
+            file: pages/tools.qmd
+
+    tools:
+      # - icon: robot
+      #   text: Assistant
+      #   file: pages/assistant.qmd
+      - icon: lightbulb-fill
+        text: Knowledge Base
+        href: https://virtuelleakademie.ch/knowledge-base/
+      # - icon: twitter
+      #   href: https://twitter.com
+      - icon: github
+        menu:
+          - text: Source Code
+            url:  https://github.com/virtuelleakademie/ki-wb-gesundheit/
+          - text: Report a Bug
+            url:  https://github.com/virtuelleakademie/ki-wb-gesundheit/issues
+  # sidebar:
+  #   - title: "Slides 📺"
+  #     style: "docked"
+  #     background: light
+  #     contents:
+  #       - text: "The busy lecturer's guide to LLMs"
+  #         file: slides/busy-lecturers-guide.qmd
+  #       - text: "Part 1: What is ChatGPT?"
+  #         file: slides/00-introduction.qmd
+  #   - title: "🎓 Tutorials"
+  #     style: "docked"
+  #     background: light
+  #     contents:
+  #       - text: "Using the API: Prompting Programmatically"
+  #         file: pages/prompting.qmd
+page-footer:
+    right:
+    - icon: github
+      href: https://github.com/virtuelleakademie/ki-wb-gesundheit
 
 format:
   html:
-    theme: cosmo
-    css: styles.css
+    theme:
+      light: simplex
     toc: true
+    link-external-icon: true
+    link-external-newwindow: true
+    anchor-sections: true
+    smooth-scroll: true
+    # linkcolor: rebeccapurple
+comments:
+  hypothesis:
+    theme: clean
+  # utterances:
+    # repo: virtuelleakademie/ki-wb-gesundheit
 
+execute:
+  cache: true
+  freeze: auto
+  execute-dir: project
 
-
+editor:
+  render-on-save: true
