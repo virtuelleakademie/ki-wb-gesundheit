@@ -1,0 +1,43 @@
+---
+title: "Hands-On Practice: Prompting"
+description: |
+  Basic prompting techniques.
+# date: last-modified
+date: 27 June, 2024
+date-format: "DD MMM, YYYY"
+author: 
+  - name: Andrew Ellis
+    url: https://github.com/awellis
+    affiliation: Virtuelle Akademie, Berner Fachhochschule
+    affiliation-url: https://virtuelleakademie.ch
+    orcid: 0000-0002-2788-936X
+license: CC BY
+citation: true
+bibliography: ../bibliography.bib
+format:
+    html:
+        toc: true
+        code-fold: true
+        code-link: true
+        callout-appearance: simple
+        callout-icon: false
+---
+
+
+:::{.callout-tip}
+- In general, it is advisable to improve your prompting strategy by **iterating**. 
+
+- Start with a simple prompt, see what the model generates, and then refine. Repeat this process until you are satisfied with the results. 
+
+- Once you have a good prompt, you can use it in a new chat session - in this way, the "failed" attempts will not be part of the context.
+
+:::
+
+# Content
+
+## Some text
+
+
+![](../assets/images/LLM.svg){width=100%}
+
+An LLM is a type of generative AI model that is trained to predict the next word following the input (prompt).
