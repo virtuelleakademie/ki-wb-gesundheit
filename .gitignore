@@ -138,10 +138,17 @@ dmypy.json
 cython_debug/
 
 
-# Local files
+# MacOS
 .DS_Store
+
+# VSCode
 ki-wb-gesundheit.code-workspace
 
-/.quarto/
+# R
 .Rproj.user
 .Rhistory
+
+# Quarto
+/.quarto/
+pages/*_cache/
+pages/*_files/
