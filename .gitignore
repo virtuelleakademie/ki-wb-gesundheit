@@ -152,3 +152,4 @@ ki-wb-gesundheit.code-workspace
 /.quarto/
 pages/*_cache/
 pages/*_files/
+_freeze
