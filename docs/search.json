@@ -436,9 +436,9 @@
   {
     "objectID": "pages/about.html",
     "href": "pages/about.html",
-    "title": "About",
+    "title": "Virtuelle Akademie",
     "section": "",
-    "text": "About this site\n\n\n\n Back to top"
+    "text": "Prompt-Labor: Basics zu KI-Sprachmodellen\n\n\n\nMöchtest du das volle Potential von Sprachmodellen wie ChatGPT ausschöpfen? In diesem Prompt-Labor tauchen wir sowohl in die Grundlagen von Sprachmodellen als auch in Techniken zur Erstellung effektiver Prompts ein.\nInhalt:\n\nWas sind KI-Sprachmodelle? Wie werden sie trainiert?\nWie generieren KI-Sprachmodelle Text?\nWie kommuniziere ich mit KI-Sprachmodellen? Wie schreibe ich gute Prompts?\n\nNächste Termine:\n23.02.2024, 14–16h\n22.04.2024, 10–12h\n www.bfh.ch/de/weiterbildung/kurse/prompt-labor-basics/\n\n\n\n\n\n\n\n\nPrompt-Labor Vertiefung: KI-Sprachmodelle in der Lehre nutzen\n\n\n\nMöchtest du Tools wie ChatGPT oder Chatbots für deinen Unterricht oder deine Weiterbildung nutzen? Das Prompt-Labor bietet Raum zum Experimentieren, Diskutieren und Entwickeln.\nInhalt:\n\nWie können Sprachmodelle genutzt werden, um Lehr- und Lernstrategien zu implementieren?\n\nNächste Termine:\n13.03.2024, 10–12h\n01.05.2024, 10–12h\n17.05.2024, 13.30–15.30\n www.bfh.ch/de/weiterbildung/kurse/prompt-labor-vertiefung/"
   },
   {
     "objectID": "pages/index.html",
@@ -887,5 +887,61 @@
     "title": "Präsentation: KI Weiterbildung Lindenhofspital",
     "section": "Some text",
     "text": "Some text\n\nAn LLM is a type of generative AI model that is trained to predict the next word following the input (prompt)."
+  },
+  {
+    "objectID": "pages/agenda.html",
+    "href": "pages/agenda.html",
+    "title": "Agenda",
+    "section": "",
+    "text": "What are large language models (LLMs)? How do they generate text?\nWhat tasks can LLMs perform? What are their limitations?\nWhat are effective prompting techniques?"
+  },
+  {
+    "objectID": "pages/agenda.html#contents",
+    "href": "pages/agenda.html#contents",
+    "title": "Agenda",
+    "section": "",
+    "text": "What are large language models (LLMs)? How do they generate text?\nWhat tasks can LLMs perform? What are their limitations?\nWhat are effective prompting techniques?"
+  },
+  {
+    "objectID": "pages/agenda.html#slides",
+    "href": "pages/agenda.html#slides",
+    "title": "Agenda",
+    "section": " Slides",
+    "text": "Slides\n Prompt Labor: Basics\n Prompt Labor: Vertiefung"
+  },
+  {
+    "objectID": "pages/agenda.html#activities",
+    "href": "pages/agenda.html#activities",
+    "title": "Agenda",
+    "section": " Activities",
+    "text": "Activities\n 1. Prompting techniques\n 2. Confabulations and prompting\n 3. Prompt Labor: Vertiefung"
+  },
+  {
+    "objectID": "pages/agenda.html#take-home-messages",
+    "href": "pages/agenda.html#take-home-messages",
+    "title": "Agenda",
+    "section": " Take-home messages",
+    "text": "Take-home messages\n\nExplore LLMs firsthand to understand their strengths and weaknesses.\nCombine domain knowledge with an understanding of how LLMs work, and effective prompting strategies.\nIntegrate LLMs into teaching to foster AI literacy among students.\nCritically evaluate an LLM’s output. They are language models, not knowledge bases.\nKeep a human in the loop."
+  },
+  {
+    "objectID": "pages/agenda.html#learning-outcomes",
+    "href": "pages/agenda.html#learning-outcomes",
+    "title": "Agenda",
+    "section": " Learning outcomes",
+    "text": "Learning outcomes\n\n\n\n\n\n\nAfter this workshop, you will be able to:\n\n\n\n\nExplain what large language models and conversational agents, such as ChatGPT, can be used for, and what they shouldn’t be used for.\nCreate effective prompts for LLMs."
+  },
+  {
+    "objectID": "pages/agenda.html#instructors",
+    "href": "pages/agenda.html#instructors",
+    "title": "Agenda",
+    "section": " Instructors",
+    "text": "Instructors\n\nAndrew Ellis, Virtual Academy at the Bern University of Applied Sciences:\nAndrew, a data scientist at the Virtual Academy, explores the convergence of language, thought, and AI. He teaches and researches generative AI’s role in education at BFH, focusing on human interactions with large language models and the impact of AI learning tools on educational outcomes. Andrew holds a PhD in cognitive psychology from the University of Bern, where he studied mental imagery and perception.\nKaspar Kaufmann, Virtual Academy at the Bern University of Applied Sciences:\nAs a researcher at the Virtual Academy, Kaspar aims to promote digital competencies among teachers and learners at BFH. He is passionate about fostering a community of confident, critical and responsible users of digital technologies for education, work and civic participation."
+  },
+  {
+    "objectID": "pages/about.html#ki-kurse-der-virtuellen-akademie",
+    "href": "pages/about.html#ki-kurse-der-virtuellen-akademie",
+    "title": "Virtuelle Akademie",
+    "section": "",
+    "text": "Prompt-Labor: Basics zu KI-Sprachmodellen\n\n\n\nMöchtest du das volle Potential von Sprachmodellen wie ChatGPT ausschöpfen? In diesem Prompt-Labor tauchen wir sowohl in die Grundlagen von Sprachmodellen als auch in Techniken zur Erstellung effektiver Prompts ein.\nInhalt:\n\nWas sind KI-Sprachmodelle? Wie werden sie trainiert?\nWie generieren KI-Sprachmodelle Text?\nWie kommuniziere ich mit KI-Sprachmodellen? Wie schreibe ich gute Prompts?\n\nNächste Termine:\n23.02.2024, 14–16h\n22.04.2024, 10–12h\n www.bfh.ch/de/weiterbildung/kurse/prompt-labor-basics/\n\n\n\n\n\n\n\n\nPrompt-Labor Vertiefung: KI-Sprachmodelle in der Lehre nutzen\n\n\n\nMöchtest du Tools wie ChatGPT oder Chatbots für deinen Unterricht oder deine Weiterbildung nutzen? Das Prompt-Labor bietet Raum zum Experimentieren, Diskutieren und Entwickeln.\nInhalt:\n\nWie können Sprachmodelle genutzt werden, um Lehr- und Lernstrategien zu implementieren?\n\nNächste Termine:\n13.03.2024, 10–12h\n01.05.2024, 10–12h\n17.05.2024, 13.30–15.30\n www.bfh.ch/de/weiterbildung/kurse/prompt-labor-vertiefung/"
   }
 ]
