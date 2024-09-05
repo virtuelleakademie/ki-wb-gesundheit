@@ -1,5 +1,6 @@
 ---
-title: "Präsentation: KI Weiterbildung Lindenhofspital"
+title: Künstliche Intelligenz in Pflegepraxis und Berufsbildung
+# subtitle: "Weiterbildung Lindenhofspital"
 author: "Andrew Ellis"
 date: "9 September, 2024"
 date-format: "DD MMMM, YYYY"
@@ -10,14 +11,19 @@ format:
     revealjs:
         theme: [simple, ../styles/custom-reveal.scss]
       #   theme: default
-        title-slide-attributes:
-          # data-background-image: ../assets/background-purple.png
-          # data-background-size: contain
-          data-background-opacity: "1"
-        # logo: ../assets/robot.png
+        # title-slide-attributes:
+        #   # data-background-image: ../assets/background-purple.png
+        #   # data-background-size: contain
+        #   data-background-opacity: "1"
+        # logo: ../assets/bfh.png
+
         footer: <a href="../index.html">back to website {{< bi box-arrow-up-left >}} </a>
-        navigation-mode: vertical
+        # footer: <a href="../index.html">back to website {{< bi box-arrow-up-left >}} </a>
+        header-logo: ../assets/bfh-logo.png
+        header: Berner Fachhochschule | Bern University of Applied Sciences
+        navigation-mode: linear                                                                   
         progress: true
+        transition: fade
         scrollable: false
         slide-number: true
         slide-level: 2
@@ -41,6 +47,8 @@ format:
         callout-icon: false
 revealjs-plugins:
   - attribution
+filters:
+  - reveal-header
 ---
 
 
@@ -62,6 +70,8 @@ revealjs-plugins:
 - **BFH’s Stance**: Technologies that support the learning process and are relevant in practice should be integrated into teaching.
 - **Use of AI in Teaching**: The majority of students will use AI tools. Students should learn to use technologies competently and to critically question them.
 :::
+
+
 
 <br> <br>
 
@@ -106,10 +116,14 @@ An LLM is a type of generative AI model that is trained to predict the next word
 ::::
 
 
-## Embed
-{{< embed ../pages/main.qmd >}}
 
 
+
+## Questions?
+
+Thank you for your attention!
+
+Feel free to reach out with any questions or for further resources.
 
 # Questions / Discussion {{< bi chat-dots >}}
 
