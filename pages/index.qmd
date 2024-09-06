@@ -38,7 +38,7 @@ lightbox: auto
 2) Create effective prompts for LLMs.
 <!-- 3) Design your own LLM-based educational activities.
 4) Critically evaluate LLM-based educational activities. -->
-::: -->
+<!-- ::: --> -->
 
 <!-- ## ⏱️ Schedule
 

@@ -1,8 +1,12 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/pages/activity.html</loc>
-    <lastmod>2024-06-27T06:13:26.326Z</lastmod>
+    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/slides/previous-workshop.html</loc>
+    <lastmod>2024-09-04T22:13:37.803Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/slides/presentation.html</loc>
+    <lastmod>2024-09-06T12:20:46.759Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/pages/resources.html</loc>
@@ -27,5 +31,9 @@
   <url>
     <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/pages/tools.html</loc>
     <lastmod>2023-10-26T14:36:00.812Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/pages/activity.html</loc>
+    <lastmod>2024-06-27T06:13:26.326Z</lastmod>
   </url>
 </urlset>
