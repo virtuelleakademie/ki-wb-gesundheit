@@ -1,5 +1,5 @@
 ---
-title: "Virtuelle Akademie"
+title: "Künstliche Intelligenz in Pflegepraxis und Berufsbildung"
 about:
   template: solana #trestles
   # image: ../assets/robot.png
@@ -17,51 +17,27 @@ about:
       href: https://www.bfh.ch/de/ueber-die-bfh/service-beratung/virtuelle-akademie/
     - icon: inbox-fill
       text: Email
-      href: mailto:andrew.ellis@bfh.ch
+      href: mailto:virtuelle.akademie@bfh.ch
 ---
-
-## KI-Kurse der Virtuellen Akademie
+## Ablauf
 
 
 :::{.callout-note appearance="simple"}
-## Prompt-Labor: Basics zu KI-Sprachmodellen
-Möchtest du das volle Potential von Sprachmodellen wie ChatGPT ausschöpfen? In diesem Prompt-Labor tauchen wir sowohl in die Grundlagen von Sprachmodellen als auch in Techniken zur Erstellung effektiver Prompts ein.
 
-Inhalt:
+- 14:00 Check-In, Ergebnisse Umfrage – Madeleine Bernet
 
-- Was sind KI-Sprachmodelle? Wie werden sie trainiert? 
+- 14:30 Fachinput zum Thema KI – Andrew Ellis
 
-- Wie generieren KI-Sprachmodelle Text? 
+- 15:15 Pause
 
-- Wie kommuniziere ich mit KI-Sprachmodellen? Wie schreibe ich gute Prompts? 
+- 15:45 Konkrete Praxisbeispiele aus der Praxis – Christoph Golz 
 
+- 16:15 Praktisches Üben 
 
-Nächste Termine:
+- 16:45 Take-Home-Message und Evaluation 
 
-~~23.02.2024, 14–16h~~
+- 17:00 Ende 
 
-~~22.04.2024, 10–12h~~
-
-{{< bi link >}} [www.bfh.ch/de/weiterbildung/kurse/prompt-labor-basics/](https://www.bfh.ch/de/weiterbildung/kurse/prompt-labor-basics/)
-::: 
-
-:::{.callout-note appearance="simple"}
-## Prompt-Labor Vertiefung: KI-Sprachmodelle in der Lehre nutzen
-Möchtest du Tools wie ChatGPT oder Chatbots für deinen Unterricht oder deine Weiterbildung nutzen? Das Prompt-Labor bietet Raum zum Experimentieren, Diskutieren und Entwickeln.
-
-Inhalt:
-
-- Wie können Sprachmodelle genutzt werden, um Lehr- und Lernstrategien zu implementieren?
-
-Nächste Termine:
-
-~~13.03.2024, 10–12h~~
-
-~~01.05.2024, 10–12h~~
-
-17.05.2024, 13.30–15.30
-
-{{< bi link >}} [www.bfh.ch/de/weiterbildung/kurse/prompt-labor-vertiefung/](https://www.bfh.ch/de/weiterbildung/kurse/prompt-labor-vertiefung/)
 :::
 
 
