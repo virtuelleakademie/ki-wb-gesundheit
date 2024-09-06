@@ -632,9 +632,30 @@
   {
     "objectID": "pages/index.html",
     "href": "pages/index.html",
-    "title": "ki-wb-gesundheit",
+    "title": "Inhalt",
     "section": "",
-    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n Back to top"
+    "text": "Begleitdokument KI Weiterbildung\n Künstliche Intelligenz in Pflegepraxis und Berufsbildung"
+  },
+  {
+    "objectID": "pages/index.html#dokumente",
+    "href": "pages/index.html#dokumente",
+    "title": "Inhalt",
+    "section": "",
+    "text": "Begleitdokument KI Weiterbildung\n Künstliche Intelligenz in Pflegepraxis und Berufsbildung"
+  },
+  {
+    "objectID": "pages/index.html#übungen",
+    "href": "pages/index.html#übungen",
+    "title": "Inhalt",
+    "section": " Übungen",
+    "text": "Übungen\n Praktisches Üben"
+  },
+  {
+    "objectID": "pages/index.html#take-home-messages",
+    "href": "pages/index.html#take-home-messages",
+    "title": "Inhalt",
+    "section": " Take-home messages",
+    "text": "Take-home messages\n\nKI-basierte Systeme können zur Optimierung des Ressourcenmanagements beitragen.\nDie ethische Anwendung und der Schutz sensibler Daten müssen stets gewährleistet sein."
   },
   {
     "objectID": "pages/about.html",
