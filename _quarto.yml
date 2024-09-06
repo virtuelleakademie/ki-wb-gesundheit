@@ -38,7 +38,7 @@ website:
       #   file: pages/index.qmd
       - icon: calendar-event #house-door
         text: "Inhalt" # {{< fa calendar >}}
-        file: pages/agenda.qmd
+        file: pages/index.qmd
 
       - icon: file-slides
         text: "Dokumente" 
