@@ -44,16 +44,19 @@ website:
         text: "Slides" # {{< fa person-chalkboard >}}
         menu:
           - text: "Workshop"
-            # file: slides/workshop.qmd
+            file: assets/2024-09-09_Künstliche-Intelligenz-Pflegepraxis-Berufsbildung.pdf
+          
           - text: "Präsentation: WB Lindenhofspital, 09.09.2024"
             file: slides/wb-lindenhofspital.qmd
 
 
       - icon: brush #pencil-square
-        text: "Activities"
+        text: "Übungen"
         menu:
           # - text: "Activities"
           #   file: pages/activities.qmd
+          - text: "Übungen"
+            file: assets/uebungen.pdf
           - text: "Activity"
             file: pages/activity.qmd
 
