@@ -1,43 +1,36 @@
 ---
-title: "Agenda"
+title: "Inhalt"
 lightbox: auto
 ---
 <!-- In this workshop, we will investigate how Large Language Models (LLMs) are trained, how they produce text, and what they are capable of. We will also discuss similarities and differences between LLMs and human thought processes. As LLMs become increasingly human-like in their performance, it is important to develop effective ways to describe their behaviour. We will discuss high-level concepts that allow us think about LLMs without falling into the trap of anthropomorphism. -->
 <!-- TODO: fix schedule -->
 
-## {{< bi book >}} Contents
+<!-- ## {{< bi book >}} Contents -->
 
-- What are large language models (LLMs)? How do they generate text?
-- What tasks can LLMs perform? What are their limitations?
-- What are effective prompting techniques?
+
 <!-- - How can I use LLMs in educational settings? -->
 
-## {{< bi file-slides >}} Slides
+## {{< bi file-slides >}} Dokumente
 
-{{< bi link >}} [Prompt Labor: Basics](../slides/prompt-labor-basics.qmd)
+{{< bi link >}} [Begleitdokument KI Weiterbildung](../assets/begleitdokument-KI-weiterbildung.pdf)
 
-{{< bi link >}} [Prompt Labor: Vertiefung](../slides/prompt-labor-vertiefung.qmd)
+{{< bi link >}} [Künstliche Intelligenz in Pflegepraxis und Berufsbildung](../assets/2024-09-09_Ku%CC%88nstliche-Intelligenz-Pflegepraxis-Berufsbildung.pdf)
 
-## {{< bi brush >}} Activities
 
-{{< bi link >}} [1. Prompting techniques](../pages/activity-cas-hochschuldidaktik.qmd)
+## {{< bi brush >}} Übungen
 
-{{< bi link >}} [2. Confabulations and prompting](../pages/activities-20240223.qmd)
-
-{{< bi link >}} [3. Prompt Labor: Vertiefung](../pages/activity-prompt-labor-vertiefung.qmd)
+{{< bi link >}} [Praktisches Üben](../assets/uebungen.pdf)
 
 
 ## {{< bi house-door >}} Take-home messages
 
-- Explore LLMs firsthand to understand their strengths and weaknesses.
-- Combine domain knowledge with an understanding of how LLMs work, and effective prompting strategies.
-- Integrate LLMs into teaching to foster AI literacy among students.
-- Critically evaluate an LLM’s output. They are language models, not knowledge bases. 
-- Keep a human in the loop.
-  
+- KI-basierte Systeme können zur Optimierung des Ressourcenmanagements beitragen.
+
+- Die ethische Anwendung und der Schutz sensibler Daten müssen stets gewährleistet sein.
 
 
-## {{< bi bullseye >}} Learning outcomes
+
+<!-- ## {{< bi bullseye >}} Learning outcomes
 :::{.callout-tip}
 ## After this workshop, you will be able to:
 
@@ -45,14 +38,14 @@ lightbox: auto
 2) Create effective prompts for LLMs.
 <!-- 3) Design your own LLM-based educational activities.
 4) Critically evaluate LLM-based educational activities. -->
-:::
+::: -->
 
 <!-- ## ⏱️ Schedule
 
 ![](../assets/schedule.svg){width=100%} -->
 
 
-## {{< bi people-fill >}} Instructors
+<!-- ## {{< bi people-fill >}} Instructors
 
 - [**Andrew Ellis**](https://www.bfh.ch/en/about-bfh/people/a3xvoqozosua/), [Virtual Academy](https://virtuelleakademie.ch/) at the [Bern University of Applied Sciences](https://www.bfh.ch/):
 
@@ -60,4 +53,4 @@ lightbox: auto
 
 - [**Kaspar Kaufmann**](https://www.bfh.ch/de/ueber-die-bfh/personen/wzzprvvtyrw6/), [Virtual Academy](https://virtuelleakademie.ch/) at the [Bern University of Applied Sciences](https://www.bfh.ch/):
 
-  As a researcher at the [Virtual Academy](https://virtuelleakademie.ch/), Kaspar aims to promote digital competencies among teachers and learners at BFH. He is passionate about fostering a community of confident, critical and responsible users of digital technologies for education, work and civic participation.
+  As a researcher at the [Virtual Academy](https://virtuelleakademie.ch/), Kaspar aims to promote digital competencies among teachers and learners at BFH. He is passionate about fostering a community of confident, critical and responsible users of digital technologies for education, work and civic participation. -->
