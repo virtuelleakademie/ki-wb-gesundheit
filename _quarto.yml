@@ -43,7 +43,7 @@ website:
       - icon: file-slides
         text: "Dokumente" 
         menu:
-          - text: "Begleitdokument KI Weiterbildung"
+          - text: "Begleitdokument: KI Weiterbildung"
             file: assets/begleitdokument-KI-weiterbildung.pdf
           - text: "Präsentation: KI in Pflegepraxis und Berufsbildung"
             file: assets/2024-09-09_Künstliche-Intelligenz-Pflegepraxis-Berufsbildung.pdf
