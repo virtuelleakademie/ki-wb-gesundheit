@@ -7,7 +7,7 @@ project:
   render:
     # - pages/*.ipynb
     - pages/*.qmd
-    - slides/*.qmd
+    # - slides/*.qmd
 
 website:
   title: "KI Weiterbildung Gesundheit //"
