@@ -43,11 +43,11 @@ website:
       - icon: file-slides
         text: "Slides" # {{< fa person-chalkboard >}}
         menu:
-          - text: "Workshop"
+          - text: "Künstliche Intelligenz in Pflegepraxis und Berufsbildung"
             file: assets/2024-09-09_Künstliche-Intelligenz-Pflegepraxis-Berufsbildung.pdf
           
-          - text: "Präsentation: WB Lindenhofspital, 09.09.2024"
-            file: slides/wb-lindenhofspital.qmd
+          # - text: "Präsentation: WB Lindenhofspital, 09.09.2024"
+          #   file: slides/wb-lindenhofspital.qmd
 
 
       - icon: brush #pencil-square
@@ -55,30 +55,30 @@ website:
         menu:
           # - text: "Activities"
           #   file: pages/activities.qmd
-          - text: "Übungen"
+          - text: "PraktischesÜben"
             file: assets/uebungen.pdf
           - text: "Activity"
             file: pages/activity.qmd
 
-      - icon: book
-        text: "Tutorials"
-        menu:
-          - text: "Text representation: embeddings"
-            # file: pages/text-representation.qmd
+      # - icon: book
+      #   text: "Tutorials"
+      #   menu:
+      #     - text: "Text representation: embeddings"
+      #       # file: pages/text-representation.qmd
 
-      - icon: archive
-        text: "Archive"
-        menu:
-          - text: "Part 1: What is ChatGPT?"
-            # file: slides/00-introduction.qmd
+      # - icon: archive
+      #   text: "Archive"
+      #   menu:
+      #     - text: "Part 1: What is ChatGPT?"
+      #       # file: slides/00-introduction.qmd
 
       - icon: wrench-adjustable #tools
-        text: "Resources"
+        text: "Links"
         menu:
           - text: "Guides"
             file: pages/resources.qmd
-          - text: "Tools"
-            file: pages/tools.qmd
+          # - text: "Tools"
+          #   file: pages/tools.qmd
 
     tools:
       # - icon: robot
