@@ -7,10 +7,10 @@ project:
   render:
     # - pages/*.ipynb
     - pages/*.qmd
-    # - slides/*.qmd
+    - slides/*.qmd
 
 website:
-  title: "KI Weiterbildung Gesundheit //"
+  title: "KI Weiterbildung Gesundheit >>"
   site-url: https://virtuelleakademie.github.io/ki-wb-gesundheit
   repo-url: https://github.com/virtuelleakademie/ki-wb-gesundheit
   # repo-actions: [edit, issue]
