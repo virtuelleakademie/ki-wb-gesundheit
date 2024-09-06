@@ -127,7 +127,7 @@ div.csl-indent {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../pages/agenda.qmd"> <i class="bi bi-calendar-event" role="img">
+    <a class="nav-link" href="../pages/agenda.html"> <i class="bi bi-calendar-event" role="img">
 </i> 
 <span class="menu-text">Agenda</span></a>
   </li>  
@@ -138,20 +138,23 @@ div.csl-indent {
  <span class="menu-text">Slides</span>
     </a>
     <ul class="dropdown-menu" aria-labelledby="nav-menu-slides">    
-        <li class="dropdown-header">Workshop</li>
         <li>
-    <a class="dropdown-item" href="../slides/wb-lindenhofspital.qmd">
- <span class="dropdown-text">Präsentation: WB Lindenhofspital, 09.09.2024</span></a>
+    <a class="dropdown-item" href="../assets/2024-09-09_Künstliche-Intelligenz-Pflegepraxis-Berufsbildung.pdf">
+ <span class="dropdown-text">Künstliche Intelligenz in Pflegepraxis und Berufsbildung</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-activities" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-bungen" role="link" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="bi bi-brush" role="img">
 </i> 
- <span class="menu-text">Activities</span>
+ <span class="menu-text">Übungen</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-activities">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-bungen">    
+        <li>
+    <a class="dropdown-item" href="../assets/uebungen.pdf">
+ <span class="dropdown-text">PraktischesÜben</span></a>
+  </li>  
         <li>
     <a class="dropdown-item" href="../pages/activity.html">
  <span class="dropdown-text">Activity</span></a>
@@ -159,39 +162,15 @@ div.csl-indent {
     </ul>
   </li>
   <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-tutorials" role="link" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="bi bi-book" role="img">
-</i> 
- <span class="menu-text">Tutorials</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-tutorials">    
-        <li class="dropdown-header">Text representation: embeddings</li>
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-archive" role="link" data-bs-toggle="dropdown" aria-expanded="false">
-      <i class="bi bi-archive" role="img">
-</i> 
- <span class="menu-text">Archive</span>
-    </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-archive">    
-        <li class="dropdown-header">Part 1: What is ChatGPT?</li>
-    </ul>
-  </li>
-  <li class="nav-item dropdown ">
-    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-links" role="link" data-bs-toggle="dropdown" aria-expanded="false">
       <i class="bi bi-wrench-adjustable" role="img">
 </i> 
- <span class="menu-text">Resources</span>
+ <span class="menu-text">Links</span>
     </a>
-    <ul class="dropdown-menu" aria-labelledby="nav-menu-resources">    
+    <ul class="dropdown-menu" aria-labelledby="nav-menu-links">    
         <li>
     <a class="dropdown-item" href="../pages/resources.html">
  <span class="dropdown-text">Guides</span></a>
-  </li>  
-        <li>
-    <a class="dropdown-item" href="../pages/tools.html">
- <span class="dropdown-text">Tools</span></a>
   </li>  
     </ul>
   </li>
@@ -229,11 +208,7 @@ div.csl-indent {
   <ul>
   <li><a href="#ki-orientierungshilfe-der-bfh" id="toc-ki-orientierungshilfe-der-bfh" class="nav-link active" data-scroll-target="#ki-orientierungshilfe-der-bfh">KI Orientierungshilfe der BFH</a></li>
   <li><a href="#bildung-6.0" id="toc-bildung-6.0" class="nav-link" data-scroll-target="#bildung-6.0">Bildung 6.0</a></li>
-  <li><a href="#chatgpt-an-der-hochschule" id="toc-chatgpt-an-der-hochschule" class="nav-link" data-scroll-target="#chatgpt-an-der-hochschule">ChatGPT an der Hochschule</a></li>
-  <li><a href="#youtube" id="toc-youtube" class="nav-link" data-scroll-target="#youtube">Youtube</a></li>
-  <li><a href="#how-does-gpt-work" id="toc-how-does-gpt-work" class="nav-link" data-scroll-target="#how-does-gpt-work">How does GPT work?</a></li>
   <li><a href="#wissenschaftliches-arbeiten" id="toc-wissenschaftliches-arbeiten" class="nav-link" data-scroll-target="#wissenschaftliches-arbeiten">Wissenschaftliches Arbeiten</a></li>
-  <li><a href="#ethische-fragen" id="toc-ethische-fragen" class="nav-link" data-scroll-target="#ethische-fragen">Ethische Fragen</a></li>
   </ul>
 </nav>
     </div>
@@ -257,47 +232,12 @@ div.csl-indent {
 <li><a href="https://www.bildung6.ch/">Projekt Bildung 6.0</a></li>
 </ul>
 </section>
-<section id="chatgpt-an-der-hochschule" class="level2">
-<h2 class="anchored" data-anchor-id="chatgpt-an-der-hochschule">ChatGPT an der Hochschule</h2>
-<ul>
-<li><p><a href="https://github.com/microsoft/prompts-for-edu">Prompts for Education: Enhancing Productivity &amp; Learning</a></p></li>
-<li><p><a href="https://digital.uni-hohenheim.de/fileadmin/einrichtungen/digital/Generative_AI_and_ChatGPT_in_Higher_Education.pdf">Unlocking the Power of Generative AI Models and Systems such as GPT-4 and ChatGPT for Higher Education</a></p></li>
-<li><p><a href="https://www.vkkiwa.de/ki-ressourcen/">Überblick über KI-Tools im Kontext von akademischen Lese- und Schreibprozessen</a></p></li>
-<li><p><a href="https://hochschulforumdigitalisierung.de/de/blog/chatgpt-im-hochschulkontext-%E2%80%93-eine-kommentierte-linksammlung">ChatGPT im Hochschulkontext – eine kommentierte Linksammlung</a></p></li>
-<li><p><a href="https://www.hd.unibe.ch/dienstleistungen/chatbots_in_der_hochschullehre/index_ger.html#e1381410">Uni Bern: Chatbots in der Hochschullehre</a></p></li>
-</ul>
-</section>
-<section id="youtube" class="level2">
-<h2 class="anchored" data-anchor-id="youtube">Youtube</h2>
-<p><strong>Large language models from scratch</strong></p>
-<ul>
-<li><a href="https://www.youtube.com/watch?v=lnA9DMvHtfI&amp;t=0s">How do large language models work: part 1</a></li>
-<li><a href="https://www.youtube.com/watch?v=YDiSFS-yHwk">How do large language models work: part 2</a></li>
-</ul>
-<p><strong>Tutorials zu Prompting</strong></p>
-<ul>
-<li><a href="https://youtube.com/playlist?list=PLD93Zs0BCugs9hSvTP16iACgdJkc_kiWI&amp;si=mAyoe9hWnEmdNvtT">ChatGPT Mega Prompts</a></li>
-</ul>
-</section>
-<section id="how-does-gpt-work" class="level2">
-<h2 class="anchored" data-anchor-id="how-does-gpt-work">How does GPT work?</h2>
-<ul>
-<li><a href="https://ig.ft.com/generative-ai/">Generative AI exists because of the transformer (Financial Times 12/09/2023)</a></li>
-</ul>
-</section>
 <section id="wissenschaftliches-arbeiten" class="level2">
 <h2 class="anchored" data-anchor-id="wissenschaftliches-arbeiten">Wissenschaftliches Arbeiten</h2>
 <ul>
 <li><a href="https://apastyle.apa.org/blog/how-to-cite-chatgpt">ChatGPT zitieren</a></li>
 <li><h2 id="rechtliche-fragen" class="anchored">Rechtliche Fragen</h2></li>
 <li><a href="https://hss-opus.ub.ruhr-uni-bochum.de/opus4/frontdoor/index/index/docId/9734">Didaktische Und Rechtliche Perspektiven Auf Ki-Gestütztes Schreiben In Der Hochschulbildung</a> <span class="citation" data-cites="saldenDidaktischeUndRechtliche2023">(<a href="#ref-saldenDidaktischeUndRechtliche2023" role="doc-biblioref">Salden 2023</a>)</span></li>
-</ul>
-</section>
-<section id="ethische-fragen" class="level2">
-<h2 class="anchored" data-anchor-id="ethische-fragen">Ethische Fragen</h2>
-<ul>
-<li><p><a href="https://netzpolitik.org/2023/globaler-sueden-prekaere-klickarbeit-hinter-den-kulissen-von-chatgpt/">Prekäre Klickarbeit hinter den Kulissen von ChatGPT</a></p></li>
-<li><p><a href="https://www.societybyte.swiss/2023/06/07/traumatische-klickarbeit-die-menschen-hinter-chatgpt/">Traumatische Klickarbeit: Die Menschen hinter ChatGPT</a></p></li>
 </ul>
 
 

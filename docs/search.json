@@ -1,381 +1,605 @@
 [
   {
-    "objectID": "slides/workshop.html#what-is-artifical-intelligence",
-    "href": "slides/workshop.html#what-is-artifical-intelligence",
+    "objectID": "slides/previous-workshop.html#what-is-artifical-intelligence",
+    "href": "slides/previous-workshop.html#what-is-artifical-intelligence",
     "title": "Workshop: Global Management",
     "section": "What is Artifical Intelligence?",
     "text": "What is Artifical Intelligence?\n\n\n\n\nA branch of computer science that aims to create machines that can perform tasks that typically require human intelligence."
   },
   {
-    "objectID": "slides/workshop.html#what-is-a-large-language-model",
-    "href": "slides/workshop.html#what-is-a-large-language-model",
+    "objectID": "slides/previous-workshop.html#what-is-a-large-language-model",
+    "href": "slides/previous-workshop.html#what-is-a-large-language-model",
     "title": "Workshop: Global Management",
     "section": "What is a Large Language Model?",
     "text": "What is a Large Language Model?\n\n\n\n\nAn LLM is a type of generative AI model that is trained to predict the next word following the input (prompt)."
   },
   {
-    "objectID": "slides/workshop.html#how-to-train-a-language-model",
-    "href": "slides/workshop.html#how-to-train-a-language-model",
+    "objectID": "slides/previous-workshop.html#how-to-train-a-language-model",
+    "href": "slides/previous-workshop.html#how-to-train-a-language-model",
     "title": "Workshop: Global Management",
     "section": "How to train a language model",
     "text": "How to train a language model\n\nAn LLM learns to predict the next word in a sequence, given the previous words: \\[ P(word | context) \\]\nThink of as “fancy autocomplete” (but very very powerful and sopisticated)"
   },
   {
-    "objectID": "slides/workshop.html#how-does-an-llm-generate-text",
-    "href": "slides/workshop.html#how-does-an-llm-generate-text",
+    "objectID": "slides/previous-workshop.html#how-does-an-llm-generate-text",
+    "href": "slides/previous-workshop.html#how-does-an-llm-generate-text",
     "title": "Workshop: Global Management",
     "section": "How does an LLM generate text?",
     "text": "How does an LLM generate text?"
   },
   {
-    "objectID": "slides/workshop.html#sampling",
-    "href": "slides/workshop.html#sampling",
+    "objectID": "slides/previous-workshop.html#sampling",
+    "href": "slides/previous-workshop.html#sampling",
     "title": "Workshop: Global Management",
     "section": "Sampling",
     "text": "Sampling"
   },
   {
-    "objectID": "slides/workshop.html#auto-regressive-generation",
-    "href": "slides/workshop.html#auto-regressive-generation",
+    "objectID": "slides/previous-workshop.html#auto-regressive-generation",
+    "href": "slides/previous-workshop.html#auto-regressive-generation",
     "title": "Workshop: Global Management",
     "section": "Auto-regressive generation",
     "text": "Auto-regressive generation\nText is generated one word at a time (actually tokens, not words).\n\n\n\n\n\n Generated text depends on the generative model and the context.\n Every word (token) is given an equal amount time (computation per token is constant)."
   },
   {
-    "objectID": "slides/workshop.html#auto-regressive-generation-1",
-    "href": "slides/workshop.html#auto-regressive-generation-1",
+    "objectID": "slides/previous-workshop.html#auto-regressive-generation-1",
+    "href": "slides/previous-workshop.html#auto-regressive-generation-1",
     "title": "Workshop: Global Management",
     "section": "Auto-regressive generation",
     "text": "Auto-regressive generation"
   },
   {
-    "objectID": "slides/workshop.html#foundation-models",
-    "href": "slides/workshop.html#foundation-models",
+    "objectID": "slides/previous-workshop.html#foundation-models",
+    "href": "slides/previous-workshop.html#foundation-models",
     "title": "Workshop: Global Management",
     "section": "Foundation models",
     "text": "Foundation models\nA foundation model, or large language model (LLM):\n\nis a type of machine learning model that is trained to predict the next word following the input (prompt).\nis trained “simply” to predict the next word following a sequence of words.\ndoes not necessarily produce human-like conversations.\n\n\n\n\n: What is the capital of France?\n: What is the capital of Germany? What is the capital of Italy? . .."
   },
   {
-    "objectID": "slides/workshop.html#training-process",
-    "href": "slides/workshop.html#training-process",
+    "objectID": "slides/previous-workshop.html#training-process",
+    "href": "slides/previous-workshop.html#training-process",
     "title": "Workshop: Global Management",
     "section": "Training process",
     "text": "Training process\n\n\nFigure courtesy of Andrej Karpathy"
   },
   {
-    "objectID": "slides/workshop.html#assistant-models",
-    "href": "slides/workshop.html#assistant-models",
+    "objectID": "slides/previous-workshop.html#assistant-models",
+    "href": "slides/previous-workshop.html#assistant-models",
     "title": "Workshop: Global Management",
     "section": "Assistant models",
     "text": "Assistant models\nTrained (fine-tuned) to have conversations: turn-taking, question answering, not being rude/sexist/racist.\n\n\n\n\n\n\nFoundation model has learned to predict all kinds of text, including both desirable and undesirable text.\nFine-tuning narrows down the space of all possible output to only desirable, human-like dialogue.\nModel is aligned with the values of the fine-tuner."
   },
   {
-    "objectID": "slides/workshop.html#how-do-chatbots-work",
-    "href": "slides/workshop.html#how-do-chatbots-work",
+    "objectID": "slides/previous-workshop.html#how-do-chatbots-work",
+    "href": "slides/previous-workshop.html#how-do-chatbots-work",
     "title": "Workshop: Global Management",
     "section": "How do Chatbots work?",
     "text": "How do Chatbots work?\n\n\nDesigned to present the illusion of a conversation between two entities."
   },
   {
-    "objectID": "slides/workshop.html#how-do-chatbots-actually-work",
-    "href": "slides/workshop.html#how-do-chatbots-actually-work",
+    "objectID": "slides/previous-workshop.html#how-do-chatbots-actually-work",
+    "href": "slides/previous-workshop.html#how-do-chatbots-actually-work",
     "title": "Workshop: Global Management",
     "section": "How do chatbots actually work?",
     "text": "How do chatbots actually work?"
   },
   {
-    "objectID": "slides/workshop.html#an-assistant-model-is-a-conversation-simulator",
-    "href": "slides/workshop.html#an-assistant-model-is-a-conversation-simulator",
+    "objectID": "slides/previous-workshop.html#an-assistant-model-is-a-conversation-simulator",
+    "href": "slides/previous-workshop.html#an-assistant-model-is-a-conversation-simulator",
     "title": "Workshop: Global Management",
     "section": "An assistant model is a conversation simulator",
     "text": "An assistant model is a conversation simulator\n\n\n\n\n\nAn assistant is trained to respond to user prompts in a human-like way.\nSimulates possible human conversations.\nHas no intentions. It is not an entity with its own goals.\nDoes not have a “personality” or “character” in the traditional sense. It can be thought of as a role-playing simulator.\nHas no concept of “truth” or “lying”. The model is not trying to deceive the user, it is simply trying to respond in a human-like way."
   },
   {
-    "objectID": "slides/workshop.html#capabilities-and-limitations",
-    "href": "slides/workshop.html#capabilities-and-limitations",
+    "objectID": "slides/previous-workshop.html#capabilities-and-limitations",
+    "href": "slides/previous-workshop.html#capabilities-and-limitations",
     "title": "Workshop: Global Management",
     "section": "Capabilities and limitations",
     "text": "Capabilities and limitations\n\n\nWhat are LLMs good at?\n\nFixing grammar, bad writing, etc.\nRephrasing\nAnalyzing texts\nWriting computer code\nAnswering questions about a knowledge base\nTranslating languages\nCreating structured output\nFactual output with external documents or web search\n\n\nLimitations\n\nThey make stuff up (hallucinate)\nThey learn biases from the training data\nWeird vocabulary, e.g. delve\n(Chatbots have privacy issues)"
   },
   {
-    "objectID": "slides/workshop.html#hallucination",
-    "href": "slides/workshop.html#hallucination",
+    "objectID": "slides/previous-workshop.html#hallucination",
+    "href": "slides/previous-workshop.html#hallucination",
     "title": "Workshop: Global Management",
     "section": "Hallucination",
     "text": "Hallucination\n\n\n\n\n\nLLMs can generate text that is not true, or not based on any real-world knowledge.\nThis is known as “hallucination”. A better term would be “confabulation”."
   },
   {
-    "objectID": "slides/workshop.html#can-an-llm-tell-the-truth",
-    "href": "slides/workshop.html#can-an-llm-tell-the-truth",
+    "objectID": "slides/previous-workshop.html#can-an-llm-tell-the-truth",
+    "href": "slides/previous-workshop.html#can-an-llm-tell-the-truth",
     "title": "Workshop: Global Management",
     "section": "Can an LLM tell the truth?",
     "text": "Can an LLM tell the truth?\n\nHow would you know if an LLM is able to give you factual information?\nHow would you test this?\n\n\n\n\n: What is the capital of Uzbekistan?\n: Tashkent\n\n\n\nIt looks like the LLM knows the capital of Uzbekistan1.\nWhat it is actually doing is responding with the most likely sequence following the question."
   },
   {
-    "objectID": "slides/workshop.html#knowledge-base",
-    "href": "slides/workshop.html#knowledge-base",
+    "objectID": "slides/previous-workshop.html#knowledge-base",
+    "href": "slides/previous-workshop.html#knowledge-base",
     "title": "Workshop: Global Management",
     "section": "Knowledge base",
     "text": "Knowledge base\n\n\n\nA knowledge base is a collection of facts about the world.\n\nYou can ask (retrieve) and tell (store) facts.\n\nAn LLM is not a knowledge base.\n\nLLMs generate text based on on how probable the next word is given the context, not based on stored facts."
   },
   {
-    "objectID": "slides/workshop.html#biases",
-    "href": "slides/workshop.html#biases",
+    "objectID": "slides/previous-workshop.html#biases",
+    "href": "slides/previous-workshop.html#biases",
     "title": "Workshop: Global Management",
     "section": "Biases",
     "text": "Biases\n\n\n\n\n\n\n\n\nBiases in LLMs\nSource\nExamples\n\n\n\n\nTraining data bias\nText from internet, books, articles.\nStereotypes reflecting gender, race, religion.\n\n\nRepresentation bias\nUnderrepresented groups/perspectives in data.\nLess accurate responses for minority cultures.\n\n\nAlgorithmic bias\nTraining and fine-tuning algorithms.\nOptimizations for fluency and coherence may lead to preference for dominant cultural narratives.\n\n\nUser interaction bias\nAdaptation based on user interactions.\nIncreased biased or harmful content generation."
   },
   {
-    "objectID": "slides/workshop.html#privacy-concerns",
-    "href": "slides/workshop.html#privacy-concerns",
+    "objectID": "slides/previous-workshop.html#privacy-concerns",
+    "href": "slides/previous-workshop.html#privacy-concerns",
     "title": "Workshop: Global Management",
     "section": "Privacy concerns",
     "text": "Privacy concerns\n\n\n\n\n\n\n\n\nPrivacy Concerns\nIssue\nExamples\n\n\n\n\nData memorization\nMemorizing sensitive information.\nReproducing phone numbers, addresses.\n\n\nTraining data leakage\nUnauthorized dissemination of confidential data.\nSummarizing proprietary documents.\n\n\nUser query logging\nStoring sensitive user interactions.\nExposing private queries if data is mishandled.\n\n\nQueries used for training\nUser queries may be used for further training.\nPersonal data in queries could be inadvertently included in training data."
   },
   {
-    "objectID": "slides/workshop.html#prompting",
-    "href": "slides/workshop.html#prompting",
+    "objectID": "slides/previous-workshop.html#prompting",
+    "href": "slides/previous-workshop.html#prompting",
     "title": "Workshop: Global Management",
     "section": "Prompting",
     "text": "Prompting"
   },
   {
-    "objectID": "slides/workshop.html#what-is-a-prompt",
-    "href": "slides/workshop.html#what-is-a-prompt",
+    "objectID": "slides/previous-workshop.html#what-is-a-prompt",
+    "href": "slides/previous-workshop.html#what-is-a-prompt",
     "title": "Workshop: Global Management",
     "section": "What is a prompt?",
     "text": "What is a prompt?\n\nAn LLM’s task is to complete text.\nA prompt is a piece of text (instruction) that is given to a language model to complete.\n\n\n\n\nPROMPT : Write a haiku about a workshop on large language models.\nASSISTANT : Whispers of circuits,\nKnowledge blooms in bytes and bits,\nModel learns and fits.\n\n\n\n\nThe response is generated as continuation of, and conditioned on, the prompt.\n\n\nMore technical definition: The output is generated by auto-regressively sampling from the probability distribution over the vocabulary, conditioned on the prompt."
   },
   {
-    "objectID": "slides/workshop.html#prompt-engineering",
-    "href": "slides/workshop.html#prompt-engineering",
+    "objectID": "slides/previous-workshop.html#prompt-engineering",
+    "href": "slides/previous-workshop.html#prompt-engineering",
     "title": "Workshop: Global Management",
     "section": "Prompt engineering",
     "text": "Prompt engineering\n\n\n\n\n\nLLMs learn to do things they were not explicitly trained to do: translation, reasoning, etc. \nOften, these capabilities need to be “unlocked” by the right prompt. \n\n\n\nBut what is the right prompt?\nThe answer is very similar to what you would tell a human dialogue partner/assistant.\nYou can increase the probability of getting the desired output by providing context and examples."
   },
   {
-    "objectID": "slides/workshop.html#basics-of-prompting",
-    "href": "slides/workshop.html#basics-of-prompting",
+    "objectID": "slides/previous-workshop.html#basics-of-prompting",
+    "href": "slides/previous-workshop.html#basics-of-prompting",
     "title": "Workshop: Global Management",
     "section": "Basics of prompting",
     "text": "Basics of prompting\nOpenAI give a set of strategies for using their models effectively:\n Prompt engineering\nThese include:\n\nwriting clear instructions\nproviding reference texts\nsplitting tasks into subtasks\ngiving the LLM ‘time to think’\nusing external tools"
   },
   {
-    "objectID": "slides/workshop.html#writing-clear-instructions",
-    "href": "slides/workshop.html#writing-clear-instructions",
+    "objectID": "slides/previous-workshop.html#writing-clear-instructions",
+    "href": "slides/previous-workshop.html#writing-clear-instructions",
     "title": "Workshop: Global Management",
     "section": "Writing clear instructions",
     "text": "Writing clear instructions\n\n\n\nInstructions should be clear and unambiguous.\nThink of an LLM as a role-playing conversation simulator: Indicate which role the model (persona) should adopt.\n\n\n\n\n\n\nInclude details in your query to get more relevant answers\nAsk the model to adopt a persona\nUse delimiters to clearly indicate distinct parts of the input\nSpecify the steps required to complete a task\nProvide examples\nSpecify the desired length of the output"
   },
   {
-    "objectID": "slides/workshop.html#adopt-a-persona-role",
-    "href": "slides/workshop.html#adopt-a-persona-role",
+    "objectID": "slides/previous-workshop.html#adopt-a-persona-role",
+    "href": "slides/previous-workshop.html#adopt-a-persona-role",
     "title": "Workshop: Global Management",
     "section": "Adopt a persona (role)",
     "text": "Adopt a persona (role)\n\n\n\n: You are an expert on learning techniques. Explain the concept of ‘flipped classroom’ in one paragraph.\n\n\n\n\n\n\n: You are an expert financial derivatives. Explain the concept of ‘flipped classroom’ in one paragraph."
   },
   {
-    "objectID": "slides/workshop.html#provide-reference-texts",
-    "href": "slides/workshop.html#provide-reference-texts",
+    "objectID": "slides/previous-workshop.html#provide-reference-texts",
+    "href": "slides/previous-workshop.html#provide-reference-texts",
     "title": "Workshop: Global Management",
     "section": "Provide reference texts",
     "text": "Provide reference texts\n\nProvide a model with trusted and relevant information.\nThen instruct the model to use the provided information to compose its answer.\n\n Instruct the model to answer using a reference text\n\n\n\nThis can be extended to retrieval-augmented generation (RAG). First create a database of documents, then retrieve the most relevant documents, based on a user’s query. These are then included in the prompt to the model. The model is instructed to use the information in the documents to compose its answer."
   },
   {
-    "objectID": "slides/workshop.html#create-structured-output",
-    "href": "slides/workshop.html#create-structured-output",
+    "objectID": "slides/previous-workshop.html#create-structured-output",
+    "href": "slides/previous-workshop.html#create-structured-output",
     "title": "Workshop: Global Management",
     "section": "Create structured output",
     "text": "Create structured output\n\nExplanation: Instruct the model to generate structured output.\nE.g. provide a table, a list, a diagram, etc.\nUse delimiters to indicate distinct parts of the input.\nExample: Extract information from a text and present it in a table."
   },
   {
-    "objectID": "slides/workshop.html#structured-prompting-techniques",
-    "href": "slides/workshop.html#structured-prompting-techniques",
+    "objectID": "slides/previous-workshop.html#structured-prompting-techniques",
+    "href": "slides/previous-workshop.html#structured-prompting-techniques",
     "title": "Workshop: Global Management",
     "section": "Structured prompting techniques",
     "text": "Structured prompting techniques\n\nIn-Context Learning: Provide examples within the prompt.\nThought Generation: Instruct the model to think step-by-step.\nDecomposition Techniques: Break down tasks into subtasks.\n\n(Schulhoff et al. 2024)"
   },
   {
-    "objectID": "slides/workshop.html#in-context-learning",
-    "href": "slides/workshop.html#in-context-learning",
+    "objectID": "slides/previous-workshop.html#in-context-learning",
+    "href": "slides/previous-workshop.html#in-context-learning",
     "title": "Workshop: Global Management",
     "section": "In-Context learning",
     "text": "In-Context learning\n\nExplanation: Providing examples or context within the prompt itself.\nFew-shot prompting: Give a few examples.\n\nExample: Translate the following sentences:\n\nEnglish: ‘What time is it?’ -&gt; French: ‘Quelle heure est-il?’\nEnglish: ‘Where is the library?’ -&gt; French:\n\n\nZero-shot prompting: No examples, relies on pre-trained knowledge.\n\nExample: Translate the following sentence…"
   },
   {
-    "objectID": "slides/workshop.html#thought-generation",
-    "href": "slides/workshop.html#thought-generation",
+    "objectID": "slides/previous-workshop.html#thought-generation",
+    "href": "slides/previous-workshop.html#thought-generation",
     "title": "Workshop: Global Management",
     "section": "Thought generation",
     "text": "Thought generation\n\nExplanation: Encourages the model to show its reasoning process.\nChain-of-Thought (CoT) prompting: encourages the LLM to “explain” its intermediate reasoning steps.\nCan often be induced by simply instructing the model to think step-by-step or Take a deep breath and work on this problem step-by-step (Yang et al. 2023)."
   },
   {
-    "objectID": "slides/workshop.html#chain-of-thought-example",
-    "href": "slides/workshop.html#chain-of-thought-example",
+    "objectID": "slides/previous-workshop.html#chain-of-thought-example",
+    "href": "slides/previous-workshop.html#chain-of-thought-example",
     "title": "Workshop: Global Management",
     "section": "Chain-of-Thought example",
     "text": "Chain-of-Thought example\nInstead of this:\n\n\n\n: The odd numbers in this group add up to an even number: 4, 8, 9, 15, 12, 2, 1. Yes or no?\n\n\n\nDo this:\n\n\n\n: Is this statement correct? The odd numbers in this group add up to an even number: 4, 8, 9, 15, 12, 2, 1.\nReason through the problem step-by-step. Start by identifying the odd numbers. Next, add them up. Finally, determine if the sum is even or odd. Write down your reasoning steps in a numbered list.\n\n\n\n\nWhy does this work?"
   },
   {
-    "objectID": "slides/workshop.html#decomposition-techniques",
-    "href": "slides/workshop.html#decomposition-techniques",
+    "objectID": "slides/previous-workshop.html#decomposition-techniques",
+    "href": "slides/previous-workshop.html#decomposition-techniques",
     "title": "Workshop: Global Management",
     "section": "Decomposition techniques",
     "text": "Decomposition techniques\n\nExplanation: Force the LLM to break down complex tasks into manageable subtasks.\nLeast-to-Most Prompting: Start simple, increase complexity.\n\nExample: List items, calculate cost…\n\nPlan-and-Solve Prompting: Separate planning and execution phases.\n\nExample: Understand the problem, devise a plan…"
   },
   {
-    "objectID": "slides/workshop.html#hands-on-practice-prompting",
-    "href": "slides/workshop.html#hands-on-practice-prompting",
+    "objectID": "slides/previous-workshop.html#hands-on-practice-prompting",
+    "href": "slides/previous-workshop.html#hands-on-practice-prompting",
     "title": "Workshop: Global Management",
     "section": "Hands-on practice: Prompting",
     "text": "Hands-on practice: Prompting\n Open this activity.\n\nPractice writing prompts for different tasks ( 20 minutes).\nWrite an essay using an LLM, and then critique someone else’s essay ( 30 minutes).\n\n  If you need further help with prompting techniques, see these websites:\n\n Learn prompting\n Prompting guide\n OpenAI cookbook"
   },
   {
-    "objectID": "slides/workshop.html#chatgpt-edu",
-    "href": "slides/workshop.html#chatgpt-edu",
+    "objectID": "slides/previous-workshop.html#chatgpt-edu",
+    "href": "slides/previous-workshop.html#chatgpt-edu",
     "title": "Workshop: Global Management",
     "section": "ChatGPT Edu",
     "text": "ChatGPT Edu\n\n\n \n\n\n\n\nAccess to GPT-4o, excelling in text interpretation, coding, and mathematics\nData analytics, web browsing, and document summarization\nBuild GPTs, custom versions of ChatGPT, and share them within university workspaces\nSignificantly higher message limits than the free version of ChatGPT\nImproved language capabilities across quality and speed, with over 50 languages supported\nRobust security, data privacy, and administrative controls\nConversations and data are not used to train OpenAI models"
   },
   {
-    "objectID": "slides/workshop.html#gpts",
-    "href": "slides/workshop.html#gpts",
+    "objectID": "slides/previous-workshop.html#gpts",
+    "href": "slides/previous-workshop.html#gpts",
     "title": "Workshop: Global Management",
     "section": "GPTs",
     "text": "GPTs"
   },
   {
-    "objectID": "slides/workshop.html#hands-on-practice-gpts",
-    "href": "slides/workshop.html#hands-on-practice-gpts",
+    "objectID": "slides/previous-workshop.html#hands-on-practice-gpts",
+    "href": "slides/previous-workshop.html#hands-on-practice-gpts",
     "title": "Workshop: Global Management",
     "section": "Hands-on practice: GPTs",
     "text": "Hands-on practice: GPTs\n\nTry out custom GPTs from various categories in the GPT store.\nDiscuss with your neighbour\n\nDid you discover any useful GPTs?\nWhat are the benefits and limitations of using GPTs in the classroom?"
   },
   {
-    "objectID": "slides/workshop.html#extended-cognition",
-    "href": "slides/workshop.html#extended-cognition",
+    "objectID": "slides/previous-workshop.html#extended-cognition",
+    "href": "slides/previous-workshop.html#extended-cognition",
     "title": "Workshop: Global Management",
     "section": "Extended cognition",
     "text": "Extended cognition\n\n\n\nAccording to Clark and Chalmers (1998), cognitive processes may extend to external objects.\nKrakauer (2016) distinguishes between complementary and competitive cognitive artifacts.\n\nComplementary: numbers, abacus\nCompetetive: calculator, GPS\n\nWhat kind of artefact will AI turn out to be?"
   },
   {
-    "objectID": "slides/workshop.html#deskilling-vs.-upskilling",
-    "href": "slides/workshop.html#deskilling-vs.-upskilling",
+    "objectID": "slides/previous-workshop.html#deskilling-vs.-upskilling",
+    "href": "slides/previous-workshop.html#deskilling-vs.-upskilling",
     "title": "Workshop: Global Management",
     "section": "Deskilling vs. upskilling",
     "text": "Deskilling vs. upskilling"
   },
   {
-    "objectID": "slides/workshop.html#writing-tasks-in-the-ai-era",
-    "href": "slides/workshop.html#writing-tasks-in-the-ai-era",
+    "objectID": "slides/previous-workshop.html#writing-tasks-in-the-ai-era",
+    "href": "slides/previous-workshop.html#writing-tasks-in-the-ai-era",
     "title": "Workshop: Global Management",
     "section": "Writing tasks in the AI era",
     "text": "Writing tasks in the AI era\n\nWriting is a core skill: critical thinking, persuasion, argumentation, understanding.\nText creation is secondary in learning: focus is on underlying skills.\nLearning objectives: Benefits of writing tasks should be clearly and convincingly conveyed.\nStudents should be equipped for effective (controlled) use of AI."
   },
   {
-    "objectID": "slides/workshop.html#ai-can-do-my-homework",
-    "href": "slides/workshop.html#ai-can-do-my-homework",
+    "objectID": "slides/previous-workshop.html#ai-can-do-my-homework",
+    "href": "slides/previous-workshop.html#ai-can-do-my-homework",
     "title": "Workshop: Global Management",
     "section": "AI can do my homework",
     "text": "AI can do my homework\n\nWe can think of this as cheating.\nMore useful: cheating means bypassing useful cognition and therefore missing out on learning.\nCheating an ethics problem.\nBypassing cognition is a learning problem.\nNot a new problem: books, encyclopedias, calculators, spell checkers, etc."
   },
   {
-    "objectID": "slides/workshop.html#controlled-use-of-llms",
-    "href": "slides/workshop.html#controlled-use-of-llms",
+    "objectID": "slides/previous-workshop.html#controlled-use-of-llms",
+    "href": "slides/previous-workshop.html#controlled-use-of-llms",
     "title": "Workshop: Global Management",
     "section": "Controlled use of LLMs",
     "text": "Controlled use of LLMs\n\n\n\n\n\n\n\nTask Category\nSpecific Tasks\n\n\n\n\nEditing tasks\nCreate/improve different versions of sections.\n\n\nTransitions\nWrite and compare transitions.\n\n\nImprove drafts\nCritique and refine drafts.\n\n\nWriting styles\nRewrite sections for different audiences.\n\n\nControversial statements\nIdentify controversial points and strengthen arguments.\n\n\nResearch journal\nKeep a diary and use LLM for reflection."
   },
   {
-    "objectID": "slides/workshop.html#sport-vs.-writing",
-    "href": "slides/workshop.html#sport-vs.-writing",
+    "objectID": "slides/previous-workshop.html#sport-vs.-writing",
+    "href": "slides/previous-workshop.html#sport-vs.-writing",
     "title": "Workshop: Global Management",
     "section": "Sport vs. writing",
     "text": "Sport vs. writing\n\n\n\nTechnological advancements in sports: a useful analogy for learning?\nDistinction between training and competition.\n\n\n\n\n\n\n\n\n\n\n\n\n\nLZR Racer swim suit\nAI-base writing tools\n\n\n\n\nImprovement\nReduced Resistance, Increased Buoyancy\nImproved Grammar, Formulation, Content Creation\n\n\nFairness\nProvided an Unfair Advantage, Led to Record Performances\nConsidered Unfair in Academic Contexts\n\n\nImpact\nBanned to Maintain Competitive Integrity\nRaises Questions of Originality and Skill Development"
   },
   {
-    "objectID": "slides/workshop.html#understanding-the-value-of-effort",
-    "href": "slides/workshop.html#understanding-the-value-of-effort",
+    "objectID": "slides/previous-workshop.html#understanding-the-value-of-effort",
+    "href": "slides/previous-workshop.html#understanding-the-value-of-effort",
     "title": "Workshop: Global Management",
     "section": "Understanding the value of effort",
     "text": "Understanding the value of effort\n\nCheating can be a symptom that learners do not understand or value the importance of their own work.\nJust like in sport: if we take shortcuts during training, we won’t get fit.\nUnderstanding the purpose is important to endure discomfort.\nLearners need to understand what they are supposed to learn, why it is valuable, and why effort and discomfort are necessary."
   },
   {
-    "objectID": "slides/workshop.html#fraud-triangle",
-    "href": "slides/workshop.html#fraud-triangle",
+    "objectID": "slides/previous-workshop.html#fraud-triangle",
+    "href": "slides/previous-workshop.html#fraud-triangle",
     "title": "Workshop: Global Management",
     "section": "Fraud triangle",
     "text": "Fraud triangle"
   },
   {
-    "objectID": "slides/workshop.html#learning-environments-that-promote-cheating",
-    "href": "slides/workshop.html#learning-environments-that-promote-cheating",
+    "objectID": "slides/previous-workshop.html#learning-environments-that-promote-cheating",
+    "href": "slides/previous-workshop.html#learning-environments-that-promote-cheating",
     "title": "Workshop: Global Management",
     "section": "Learning Environments that promote cheating",
     "text": "Learning Environments that promote cheating\n\n\n\n\n\n\n\nFactors\nDescriptions\n\n\n\n\nHigh pressure\nHigh stakes increase cheating. Fear of failure reinforces this.\n\n\nLack of intrinsic motivation\nEngagement and relevance are important. Lacking these makes cheating more attractive.\n\n\nPerceived injustice\nUnfair grading leads to cheating.\n\n\nLow fear of getting caught\nLow risk encourages cheating.\n\n\nPeer influence\nWidespread cheating among peers pressures students to join in.\n\n\nLow self-efficacy\nDoubts about one’s own abilities increase cheating as the seemingly only option."
   },
   {
-    "objectID": "slides/workshop.html#strategies-to-reduce-cheating",
-    "href": "slides/workshop.html#strategies-to-reduce-cheating",
+    "objectID": "slides/previous-workshop.html#strategies-to-reduce-cheating",
+    "href": "slides/previous-workshop.html#strategies-to-reduce-cheating",
     "title": "Workshop: Global Management",
     "section": "Strategies to Reduce Cheating",
     "text": "Strategies to Reduce Cheating\n\n\n\n\n\n\n\nStrategies\nDescriptions\n\n\n\n\nFoster intrinsic motivation\nSpark genuine interest. Provide choices and practical applications.\n\n\nMastery learning\nClear learning objectives. Focus on mastery of content. Include constructive and corrective feedback in formative assessments.\n\n\nReduce pressure\nDiversify assessment methods. Use portfolios and low-stress tests to reduce anxiety.\n\n\nStrengthen self-efficacy\nProvide constructive feedback and promote peer learning (peer tutoring, peer review).\n\n\nCreate a culture of integrity\nOpen discussion about academic integrity. Set clear guidelines and promote community ethics."
   },
   {
-    "objectID": "slides/workshop.html#academic-integrity-plagiarism",
-    "href": "slides/workshop.html#academic-integrity-plagiarism",
+    "objectID": "slides/previous-workshop.html#academic-integrity-plagiarism",
+    "href": "slides/previous-workshop.html#academic-integrity-plagiarism",
     "title": "Workshop: Global Management",
     "section": "Academic Integrity: Plagiarism",
     "text": "Academic Integrity: Plagiarism\n\n\n\n\n\n\n\nTypes of Plagiarism\nDescription\n\n\n\n\nUnattributed use\nUsing the work or ideas of others without proper attribution.\n\n\nMinor changes or translations\nUsing the work of others with minor changes or translations without attribution.\n\n\nSelf-plagiarism\nReusing substantial parts of one’s own work without proper citation.\n\n\nJoint works\nReusing jointly written publications without proper acknowledgment."
   },
   {
-    "objectID": "slides/workshop.html#academic-integrity-misconduct-in-authorship",
-    "href": "slides/workshop.html#academic-integrity-misconduct-in-authorship",
+    "objectID": "slides/previous-workshop.html#academic-integrity-misconduct-in-authorship",
+    "href": "slides/previous-workshop.html#academic-integrity-misconduct-in-authorship",
     "title": "Workshop: Global Management",
     "section": "Academic Integrity: Misconduct in authorship",
     "text": "Academic Integrity: Misconduct in authorship\n\n\n\n\n\n\n\nTypes of Plagiarism\nDescription\n\n\n\n\nUnattributed use\nUsing the work or ideas of others without proper attribution.\n\n\nMinor changes or translations\nUsing the work of others with minor changes or translations without attribution.\n\n\nSelf-plagiarism\nReusing substantial parts of one’s own work without proper citation.\n\n\nJoint works\nReusing jointly written publications without proper acknowledgment."
   },
   {
-    "objectID": "slides/workshop.html#how-to-cite-chatgpt",
-    "href": "slides/workshop.html#how-to-cite-chatgpt",
+    "objectID": "slides/previous-workshop.html#how-to-cite-chatgpt",
+    "href": "slides/previous-workshop.html#how-to-cite-chatgpt",
     "title": "Workshop: Global Management",
     "section": "How to cite ChatGPT",
     "text": "How to cite ChatGPT\nE.g. APA Style: Cite as software (not as personal communication)."
   },
   {
-    "objectID": "slides/workshop.html#documentating-ai-use",
-    "href": "slides/workshop.html#documentating-ai-use",
+    "objectID": "slides/previous-workshop.html#documentating-ai-use",
+    "href": "slides/previous-workshop.html#documentating-ai-use",
     "title": "Workshop: Global Management",
     "section": "Documentating AI use",
     "text": "Documentating AI use\n\nSpecifying prompts works well for inexperienced users, but inadequately reflects complex processes.\nExperienced users work with dialogues and several tools, not monolithic prompts in ChatGPT.\nWorking with copilot (code): no traceable prompt input.\nInstead: Document the process, including the tools used and the steps taken.\n\nInclude used tools and steps in appendix, with optional graphical representation.\nServes both evaluation and self-reflection.\n\nIs documentation meaningful in the long term, once the use of AI-based tools has become commonplace?"
   },
   {
-    "objectID": "slides/workshop.html#detecting-ai-use",
-    "href": "slides/workshop.html#detecting-ai-use",
+    "objectID": "slides/previous-workshop.html#detecting-ai-use",
+    "href": "slides/previous-workshop.html#detecting-ai-use",
     "title": "Workshop: Global Management",
     "section": "Detecting AI use",
     "text": "Detecting AI use\n\nCan be detected by the use of specific vocabulary and phrases: “delve”, “vibrant”, “embark”, “it’s important to note”, ” based on the data provided”.\nDetection tools are not very useful, and can be easily circumvented.\nAccording to Fleckenstein et al. (2024)\n\nGenerative AI can write papers that are undetectable.\nTeachers overestimate their detection abilities."
   },
   {
-    "objectID": "pages/activity.html",
-    "href": "pages/activity.html",
-    "title": "Hands-On Practice: Prompting",
-    "section": "",
-    "text": "Designing effective prompts to instruct LLMs to generate a desired output is referred to as prompt engineering. This activity will guide you through the process of creating prompts for LLMs."
+    "objectID": "slides/slides.html#welcome-and-presenter-introduction",
+    "href": "slides/slides.html#welcome-and-presenter-introduction",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Welcome and Presenter Introduction",
+    "text": "Welcome and Presenter Introduction\n\nBrief introduction of the presenter\nBackground in healthcare education and AI"
   },
   {
-    "objectID": "pages/activity.html#general-tips",
-    "href": "pages/activity.html#general-tips",
-    "title": "Hands-On Practice: Prompting",
-    "section": "General tips",
-    "text": "General tips\nOpenAI give a set of  strategies for using their models. If you need examples, this might be a good place to start.\nThe strategies include:\n\nwriting clear instructions\nproviding reference texts\nsplitting tasks into subtasks\ngiving GPT ‘time to think’\nusing external tools\n\nSome general techniques are:\n\nNumbered Steps:: For sequential tasks, use numbered steps. This helps the model understand the sequence of actions.\nUse delimiters: To separate various parts of the prompt (e.g. \", `,, ', |, #, …).\nFew-shot prompting: Provide a few examples for guidance.\n\nCombining these techniques, a template prompt might look like this:\n\n\n\n\n\n\nTemplate\n\n\n\n\nRole: who is being simulated?\nTask: what is to be done?\nSteps: what are the steps to complete the task?\nContext: what is the context of the task?\nGoal: what is the goal of the task?\nFormat: what is the format of the output? How long should it be?\n\n\n\nRemember to structure your prompt in a way that is clear and easy to understand. You can use markdown to format your prompt, and you instruct the mode to format its response using markdown.\n\nExample\n\n\n\n\n\n\n Prompt:\n\n\n\nYou are an expert on the topic of university education and didactics. Explain the concept of “flipped classroom” to a group of teachers. Use markdown to format your response. Keep you explanation concise and to the point.\n\n\nDifferent persona:\n\n\n\n\n\n\n Prompt:\n\n\n\nYou are 13 year old high school student. Explain the concept of “flipped classroom” to your friends. Use markdown to format your response. Keep you explanation concise and to the point.\n\n\nAsk the model to output a table:\n\n\n\n\n\n\n Prompt:\n\n\n\nYou are a high school teacher. Give me a table containing Greek letters in one column, their pronunciation in the second column, and examples of usage in the third column. Give me a maximum of 6 rows."
+    "objectID": "slides/slides.html#overview-of-the-presentation",
+    "href": "slides/slides.html#overview-of-the-presentation",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Overview of the Presentation",
+    "text": "Overview of the Presentation\n\nOutline of topics to be covered\nLearning objectives for the session"
   },
   {
-    "objectID": "pages/activity.html#structured-prompting-techniques",
-    "href": "pages/activity.html#structured-prompting-techniques",
-    "title": "Hands-On Practice: Prompting",
-    "section": "Structured prompting techniques",
-    "text": "Structured prompting techniques\n\nIn-Context Learning: Provide examples within the prompt\n\nExplanation\nIn-Context Learning involves providing the language model with examples or context within the prompt itself. This technique helps guide the model’s responses by demonstrating the desired output format or type of information.\n\n\nTechniques\n\nFew-Shot Prompting: Provide a few examples of the desired output before asking for a new response.\nZero-Shot Prompting: Ask the model to perform a task without any examples, relying on its pre-trained knowledge.\n\n\n\nExample\n\n\n\n\n\n\n Few-Shot Prompting:\n\n\n\nSummarize the main findings of these research paper abstracts:\n\nAbstract: [Insert first abstract] Summary: The study found that increased physical activity is associated with improved cognitive function in older adults.\nAbstract: [Insert second abstract] Summary: The research demonstrated a positive correlation between employee satisfaction and productivity in remote work environments.\n\nNow summarize this new abstract: [Insert new abstract to be summarized]\n\n\n\n\n\n\n\n\nHands-on Exercise\n\n\n\n\nChoose a topic you’re interested in. If you would like to use an AI-based tool for literature research, you can use Elicit.\nCreate zero-shot and few-shot prompts to extract the research question, methodology, and main findings from the abstracts of three research papers.\n\n\n\n\n\n\nThought Generation: Instruct the model to think step-by-step\n\nExplanation\nThought generation techniques encourage the model to show its reasoning process, making the output more transparent and often more accurate.\n\n\nTechniques\nChain-of-Thought (CoT) Prompting: Ask the model to break down its thinking into steps.\n\nZero-Shot CoT: Request step-by-step reasoning without providing examples.\nFew-Shot CoT: Provide examples of step-by-step reasoning before asking for a new response.\n\n\n\nExample Prompt (Chain-of-Thought):\n\n\n\n\n\n\n Prompt:\n\n\n\nAnalyze the methodology of the following research study. Think through this step-by-step: 1. Identify the research design. 2. Evaluate the appropriateness of the chosen methods. 3. Assess potential limitations or biases. 4. Consider alternative approaches that could have been used.\n[Insert methodology section of a research paper]\n\n\n\n\n\nDecomposition Techniques: Break down tasks into subtasks\n\nExplanation\nDecomposition techniques involve breaking down complex tasks into smaller, more manageable subtasks. This approach can lead to more accurate and comprehensive responses.\n\n\nTechniques\n\nLeast-to-Most Prompting: Start with the simplest subtask and gradually increase complexity. More info here:  Least-to-Most Prompting\nPlan-and-Solve Prompting: Separate the task into a planning phase and an execution phase.\n\n\n\nExample Prompt (Plan-and-Solve):\n\n\n\n\n\n\n Prompt:\n\n\n\nWe need to conduct a systematic literature review on [specific topic]. Let’s approach this in two phases:\nPlanning Phase: 1. Outline the main steps needed for this systematic review. 2. For each step, briefly describe what needs to be considered.\nSolving Phase: Now, let’s address each step in detail, providing specific strategies and methodologies."
+    "objectID": "slides/slides.html#relevance-to-healthcare-education",
+    "href": "slides/slides.html#relevance-to-healthcare-education",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Relevance to Healthcare Education",
+    "text": "Relevance to Healthcare Education\n\nGrowing importance of AI in healthcare\nNeed for educators to understand and integrate LLMs"
+  },
+  {
+    "objectID": "slides/slides.html#what-are-llms",
+    "href": "slides/slides.html#what-are-llms",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "What are LLMs?",
+    "text": "What are LLMs?\n\nDefinition of Large Language Models\nKey characteristics and capabilities"
+  },
+  {
+    "objectID": "slides/slides.html#brief-history-and-development",
+    "href": "slides/slides.html#brief-history-and-development",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Brief History and Development",
+    "text": "Brief History and Development\n\nEvolution of language models\nMilestones in LLM development"
+  },
+  {
+    "objectID": "slides/slides.html#introduction-to-chatgpt",
+    "href": "slides/slides.html#introduction-to-chatgpt",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Introduction to ChatGPT",
+    "text": "Introduction to ChatGPT\nCapabilities\n\nNatural language processing\nTask completion across various domains\nAdaptability to different contexts\n\nLimitations\n\nLack of true understanding\nPotential for biases and errors\nEthical considerations"
+  },
+  {
+    "objectID": "slides/slides.html#how-llms-are-trained",
+    "href": "slides/slides.html#how-llms-are-trained",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "How LLMs are Trained",
+    "text": "How LLMs are Trained\nUnsupervised Learning from Vast Text Data\n\nExplanation of the training process\nTypes of data used in training\n\nFine-tuning for Specific Tasks\n\nProcess of specializing LLMs\nExamples in healthcare contexts"
+  },
+  {
+    "objectID": "slides/slides.html#text-generation-process",
+    "href": "slides/slides.html#text-generation-process",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Text Generation Process",
+    "text": "Text Generation Process\nPredicting Next Word Based on Context\n\nExplanation of the prediction mechanism\nImportance of context in generation\n\nTemperature and Creativity in Outputs\n\nConcept of temperature in LLMs\nBalancing coherence and creativity"
+  },
+  {
+    "objectID": "slides/slides.html#definition-of-prompting",
+    "href": "slides/slides.html#definition-of-prompting",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Definition of Prompting",
+    "text": "Definition of Prompting\n\nExplanation of what a prompt is\nImportance in guiding LLM outputs"
+  },
+  {
+    "objectID": "slides/slides.html#importance-in-guiding-llm-outputs",
+    "href": "slides/slides.html#importance-in-guiding-llm-outputs",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Importance in Guiding LLM Outputs",
+    "text": "Importance in Guiding LLM Outputs\n\nHow prompts shape the response\nExamples of good vs. poor prompts"
+  },
+  {
+    "objectID": "slides/slides.html#basic-concept-input-text-influences-probability-of-desired-output",
+    "href": "slides/slides.html#basic-concept-input-text-influences-probability-of-desired-output",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Basic Concept: Input Text Influences Probability of Desired Output",
+    "text": "Basic Concept: Input Text Influences Probability of Desired Output\n\nExplanation of the probabilistic nature of LLMs\nHow input affects output probabilities"
+  },
+  {
+    "objectID": "slides/slides.html#basic-tips",
+    "href": "slides/slides.html#basic-tips",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Basic Tips",
+    "text": "Basic Tips\n1. Start Simple and Iterate\n\nBegin with basic prompts\nRefine based on outputs\nExample: Generating a patient education handout\n\n2. Be Specific and Detailed\n\nImportance of clarity in prompts\nExample: Asking for a specific medical procedure explanation\n\n3. Avoid Imprecision\n\nDangers of vague prompts\nExample: Clarifying medication instructions\n\n4. Structure Your Prompts\n\nUsing formatting to enhance clarity\nExample: Creating a structured patient history template\n\n5. Provide Examples\n\nPower of few-shot learning\nExample: Demonstrating desired format for lab results summary"
+  },
+  {
+    "objectID": "slides/slides.html#advanced-techniques",
+    "href": "slides/slides.html#advanced-techniques",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Advanced Techniques",
+    "text": "Advanced Techniques\n1. Role Prompting\n\nAssigning specific roles to the LLM\nExample: LLM as a medical expert explaining concepts to students\n\n2. Step-by-Step Guidance\n\nBreaking down complex tasks\nExample: Breaking down a complex diagnosis process\n\n3. Context Provision\n\nImportance of background information\nExample: Providing relevant patient history for a case study\n\n4. Formatting and Structuring\n\nUsing markdown and other formatting tools\nExample: Using markdown for clear medical guidelines\n\n5. Iterative Refinement\n\nContinuous improvement of prompts\nExample: Improving a generated treatment plan through feedback"
+  },
+  {
+    "objectID": "slides/slides.html#the-homework-apocalypse",
+    "href": "slides/slides.html#the-homework-apocalypse",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "The “Homework Apocalypse”",
+    "text": "The “Homework Apocalypse”\nAI’s Ability to Complete Traditional Assignments\n\nImpact on current educational practices\nChallenges for educators\n\nStatistics on AI Use Among Students\n\nCurrent trends in AI usage\nImplications for assessment methods"
+  },
+  {
+    "objectID": "slides/slides.html#learning-environments-and-cheating",
+    "href": "slides/slides.html#learning-environments-and-cheating",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Learning Environments and Cheating",
+    "text": "Learning Environments and Cheating\nUnderstanding Cheating as Bypassing Useful Cognition\n\nReframing the concept of cheating\nImportance of cognitive engagement in learning\n\nFactors Promoting Cheating in Learning Environments\n\nHigh pressure and stakes\nLack of intrinsic motivation\nPerceived injustice\n\nStrategies to Reduce Cheating and Promote Learning\n\nFostering intrinsic motivation\nImplementing mastery learning approaches\nCreating a culture of integrity"
+  },
+  {
+    "objectID": "slides/slides.html#controlled-use-of-llms-in-education",
+    "href": "slides/slides.html#controlled-use-of-llms-in-education",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Controlled Use of LLMs in Education",
+    "text": "Controlled Use of LLMs in Education\nWriting Tasks in the AI Era\n\nAdapting writing assignments\nFocus on critical thinking and analysis\n\nSpecific Tasks for Controlled LLM Use\n\nEditing and refining drafts\nGenerating and comparing transitions\nExploring different writing styles"
+  },
+  {
+    "objectID": "slides/slides.html#extended-cognition-and-ai",
+    "href": "slides/slides.html#extended-cognition-and-ai",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Extended Cognition and AI",
+    "text": "Extended Cognition and AI\nAI as a Cognitive Artifact: Complementary or Competitive?\n\nTheories of extended cognition\nAI as an extension of human cognition\n\nDeskilling vs. Upskilling Concerns\n\nPotential for AI to enhance or diminish skills\nStrategies for promoting upskilling"
+  },
+  {
+    "objectID": "slides/slides.html#copyright-considerations",
+    "href": "slides/slides.html#copyright-considerations",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Copyright Considerations",
+    "text": "Copyright Considerations\nUser Responsibility\n\nUnderstanding copyright in AI-generated content\nBest practices for responsible use\n\nLegal Status of AI-Generated Content\n\nCurrent legal landscape\nPotential future developments\n\nOpenAI Usage Terms\n\nOverview of key terms\nImplications for educational use"
+  },
+  {
+    "objectID": "slides/slides.html#data-privacy",
+    "href": "slides/slides.html#data-privacy",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Data Privacy",
+    "text": "Data Privacy\nConcerns About Data Storage and Potential Leaks\n\nRisks associated with AI tools\nImportance of data protection\n\nProtective Measures When Using AI Tools\n\nBest practices for data security\nInstitutional policies and guidelines"
+  },
+  {
+    "objectID": "slides/slides.html#academic-integrity",
+    "href": "slides/slides.html#academic-integrity",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Academic Integrity",
+    "text": "Academic Integrity\nTypes of Plagiarism and Misconduct\n\nDefining plagiarism in the AI era\nNew forms of academic misconduct\n\nHow to Properly Cite AI-Generated Content\n\nGuidelines for citation\nExamples of proper attribution\n\nDocumenting AI Use in Academic Work\n\nTransparency in AI usage\nMethods for documenting AI contributions"
+  },
+  {
+    "objectID": "slides/slides.html#case-studies-and-simulations",
+    "href": "slides/slides.html#case-studies-and-simulations",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Case Studies and Simulations",
+    "text": "Case Studies and Simulations\n\nUsing LLMs to generate realistic scenarios\nEnhancing clinical reasoning skills"
+  },
+  {
+    "objectID": "slides/slides.html#personalized-learning-materials",
+    "href": "slides/slides.html#personalized-learning-materials",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Personalized Learning Materials",
+    "text": "Personalized Learning Materials\n\nTailoring content to individual student needs\nAdaptive learning pathways"
+  },
+  {
+    "objectID": "slides/slides.html#exam-preparation-and-question-generation",
+    "href": "slides/slides.html#exam-preparation-and-question-generation",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Exam Preparation and Question Generation",
+    "text": "Exam Preparation and Question Generation\n\nCreating diverse practice questions\nSimulating exam conditions"
+  },
+  {
+    "objectID": "slides/slides.html#reflection-on-the-role-of-ai-in-healthcare-education",
+    "href": "slides/slides.html#reflection-on-the-role-of-ai-in-healthcare-education",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Reflection on the Role of AI in Healthcare Education",
+    "text": "Reflection on the Role of AI in Healthcare Education\n\nBalancing AI integration with traditional methods\nPreparing students for an AI-enhanced healthcare landscape"
+  },
+  {
+    "objectID": "slides/slides.html#recap-of-key-points",
+    "href": "slides/slides.html#recap-of-key-points",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Recap of Key Points",
+    "text": "Recap of Key Points\n\nSummary of main takeaways\nEmphasis on responsible and effective LLM use"
+  },
+  {
+    "objectID": "slides/slides.html#future-of-llms-in-healthcare-education",
+    "href": "slides/slides.html#future-of-llms-in-healthcare-education",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Future of LLMs in Healthcare Education",
+    "text": "Future of LLMs in Healthcare Education\n\nEmerging trends and technologies\nPotential long-term impacts on the field"
+  },
+  {
+    "objectID": "slides/slides.html#open-floor-for-questions",
+    "href": "slides/slides.html#open-floor-for-questions",
+    "title": "Large Language Models and Chatbots in Healthcare Education",
+    "section": "Open Floor for Questions",
+    "text": "Open Floor for Questions\n\nAddressing audience queries\nEncouraging further discussion and exploration"
+  },
+  {
+    "objectID": "slides/llm_intro.html#what-are-large-language-models-llms",
+    "href": "slides/llm_intro.html#what-are-large-language-models-llms",
+    "title": "Introduction to Large Language Models",
+    "section": "What are Large Language Models (LLMs)?",
+    "text": "What are Large Language Models (LLMs)?\n\nExplain the process of how LLMs generate responses"
+  },
+  {
+    "objectID": "slides/llm_intro.html#llms-probability-based-text-generation",
+    "href": "slides/llm_intro.html#llms-probability-based-text-generation",
+    "title": "Introduction to Large Language Models",
+    "section": "LLMs: Probability-Based Text Generation",
+    "text": "LLMs: Probability-Based Text Generation\n\nLLMs predict the most likely next word\nPredictions are context-dependent\nNo actual understanding or knowledge base\n\n\nEmphasize that LLMs don’t “know” facts, but predict based on patterns"
+  },
+  {
+    "objectID": "slides/llm_intro.html#limitations-of-llms",
+    "href": "slides/llm_intro.html#limitations-of-llms",
+    "title": "Introduction to Large Language Models",
+    "section": "Limitations of LLMs",
+    "text": "Limitations of LLMs\n\nNo long-term memory\nLimited short-term memory (context window)\nCan produce incorrect or biased information\nNo real-world understanding or common sense\n\n\nDiscuss each limitation with examples"
+  },
+  {
+    "objectID": "slides/llm_intro.html#applications-of-llms",
+    "href": "slides/llm_intro.html#applications-of-llms",
+    "title": "Introduction to Large Language Models",
+    "section": "Applications of LLMs",
+    "text": "Applications of LLMs\n\nText generation\nLanguage translation\nSummarization\nQuestion answering\nCode generation\n\n\nProvide examples for each application - Text generation: Generating articles, stories, or creative writing - Language translation: Translating text from one language to another - Summarization: Summarizing long documents or articles into concise summaries - Question answering: Providing answers to questions based on information from a knowledge base - Code generation: Generating code snippets or entire programs based on natural language prompts"
+  },
+  {
+    "objectID": "slides/llm_intro.html#ethical-considerations",
+    "href": "slides/llm_intro.html#ethical-considerations",
+    "title": "Introduction to Large Language Models",
+    "section": "Ethical Considerations",
+    "text": "Ethical Considerations\n\nBias in training data\nPotential for misinformation\nPrivacy concerns\nImpact on jobs and education\n\n\nDiscuss the importance of addressing these ethical issues"
+  },
+  {
+    "objectID": "slides/llm_intro.html#best-practices-for-using-llms",
+    "href": "slides/llm_intro.html#best-practices-for-using-llms",
+    "title": "Introduction to Large Language Models",
+    "section": "Best Practices for Using LLMs",
+    "text": "Best Practices for Using LLMs\n\nVerify information\nBe aware of biases\nUse clear and specific prompts\nUnderstand the limitations\nConsider ethical implications\n\n\nElaborate on each best practice"
+  },
+  {
+    "objectID": "slides/llm_intro.html#the-future-of-llms",
+    "href": "slides/llm_intro.html#the-future-of-llms",
+    "title": "Introduction to Large Language Models",
+    "section": "The Future of LLMs",
+    "text": "The Future of LLMs\n\nImproved accuracy and reliability\nEnhanced multimodal capabilities\nBetter alignment with human values\nIntegration with other AI technologies\n\n\nDiscuss potential developments and their implications"
+  },
+  {
+    "objectID": "slides/llm_intro.html#questions",
+    "href": "slides/llm_intro.html#questions",
+    "title": "Introduction to Large Language Models",
+    "section": "Questions?",
+    "text": "Questions?\nThank you for your attention!\nFeel free to reach out with any questions or for further resources."
   },
   {
     "objectID": "pages/resources.html",
@@ -434,13 +658,6 @@
     "text": "Ethische Fragen\n\nPrekäre Klickarbeit hinter den Kulissen von ChatGPT\nTraumatische Klickarbeit: Die Menschen hinter ChatGPT"
   },
   {
-    "objectID": "pages/about.html",
-    "href": "pages/about.html",
-    "title": "Virtuelle Akademie",
-    "section": "",
-    "text": "Prompt-Labor: Basics zu KI-Sprachmodellen\n\n\n\nMöchtest du das volle Potential von Sprachmodellen wie ChatGPT ausschöpfen? In diesem Prompt-Labor tauchen wir sowohl in die Grundlagen von Sprachmodellen als auch in Techniken zur Erstellung effektiver Prompts ein.\nInhalt:\n\nWas sind KI-Sprachmodelle? Wie werden sie trainiert?\nWie generieren KI-Sprachmodelle Text?\nWie kommuniziere ich mit KI-Sprachmodellen? Wie schreibe ich gute Prompts?\n\nNächste Termine:\n23.02.2024, 14–16h\n22.04.2024, 10–12h\n www.bfh.ch/de/weiterbildung/kurse/prompt-labor-basics/\n\n\n\n\n\n\n\n\nPrompt-Labor Vertiefung: KI-Sprachmodelle in der Lehre nutzen\n\n\n\nMöchtest du Tools wie ChatGPT oder Chatbots für deinen Unterricht oder deine Weiterbildung nutzen? Das Prompt-Labor bietet Raum zum Experimentieren, Diskutieren und Entwickeln.\nInhalt:\n\nWie können Sprachmodelle genutzt werden, um Lehr- und Lernstrategien zu implementieren?\n\nNächste Termine:\n13.03.2024, 10–12h\n01.05.2024, 10–12h\n17.05.2024, 13.30–15.30\n www.bfh.ch/de/weiterbildung/kurse/prompt-labor-vertiefung/"
-  },
-  {
     "objectID": "pages/index.html",
     "href": "pages/index.html",
     "title": "ki-wb-gesundheit",
@@ -448,445 +665,25 @@
     "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites.\n\n\n\n Back to top"
   },
   {
-    "objectID": "pages/tools.html",
-    "href": "pages/tools.html",
+    "objectID": "pages/about.html",
+    "href": "pages/about.html",
+    "title": "Virtuelle Akademie",
+    "section": "",
+    "text": "Prompt-Labor: Basics zu KI-Sprachmodellen\n\n\n\nMöchtest du das volle Potential von Sprachmodellen wie ChatGPT ausschöpfen? In diesem Prompt-Labor tauchen wir sowohl in die Grundlagen von Sprachmodellen als auch in Techniken zur Erstellung effektiver Prompts ein.\nInhalt:\n\nWas sind KI-Sprachmodelle? Wie werden sie trainiert?\nWie generieren KI-Sprachmodelle Text?\nWie kommuniziere ich mit KI-Sprachmodellen? Wie schreibe ich gute Prompts?\n\nNächste Termine:\n23.02.2024, 14–16h\n22.04.2024, 10–12h\n www.bfh.ch/de/weiterbildung/kurse/prompt-labor-basics/\n\n\n\n\n\n\n\n\nPrompt-Labor Vertiefung: KI-Sprachmodelle in der Lehre nutzen\n\n\n\nMöchtest du Tools wie ChatGPT oder Chatbots für deinen Unterricht oder deine Weiterbildung nutzen? Das Prompt-Labor bietet Raum zum Experimentieren, Diskutieren und Entwickeln.\nInhalt:\n\nWie können Sprachmodelle genutzt werden, um Lehr- und Lernstrategien zu implementieren?\n\nNächste Termine:\n13.03.2024, 10–12h\n01.05.2024, 10–12h\n17.05.2024, 13.30–15.30\n www.bfh.ch/de/weiterbildung/kurse/prompt-labor-vertiefung/"
+  },
+  {
+    "objectID": "pages/about.html#ki-kurse-der-virtuellen-akademie",
+    "href": "pages/about.html#ki-kurse-der-virtuellen-akademie",
+    "title": "Virtuelle Akademie",
+    "section": "",
+    "text": "Prompt-Labor: Basics zu KI-Sprachmodellen\n\n\n\nMöchtest du das volle Potential von Sprachmodellen wie ChatGPT ausschöpfen? In diesem Prompt-Labor tauchen wir sowohl in die Grundlagen von Sprachmodellen als auch in Techniken zur Erstellung effektiver Prompts ein.\nInhalt:\n\nWas sind KI-Sprachmodelle? Wie werden sie trainiert?\nWie generieren KI-Sprachmodelle Text?\nWie kommuniziere ich mit KI-Sprachmodellen? Wie schreibe ich gute Prompts?\n\nNächste Termine:\n23.02.2024, 14–16h\n22.04.2024, 10–12h\n www.bfh.ch/de/weiterbildung/kurse/prompt-labor-basics/\n\n\n\n\n\n\n\n\nPrompt-Labor Vertiefung: KI-Sprachmodelle in der Lehre nutzen\n\n\n\nMöchtest du Tools wie ChatGPT oder Chatbots für deinen Unterricht oder deine Weiterbildung nutzen? Das Prompt-Labor bietet Raum zum Experimentieren, Diskutieren und Entwickeln.\nInhalt:\n\nWie können Sprachmodelle genutzt werden, um Lehr- und Lernstrategien zu implementieren?\n\nNächste Termine:\n13.03.2024, 10–12h\n01.05.2024, 10–12h\n17.05.2024, 13.30–15.30\n www.bfh.ch/de/weiterbildung/kurse/prompt-labor-vertiefung/"
+  },
+  {
+    "objectID": "slides/llm-chatbot-healthcare-education.html",
+    "href": "slides/llm-chatbot-healthcare-education.html",
     "title": "KI Weiterbildung Gesundheit //",
     "section": "",
-    "text": "🤗 HuggingChat"
-  },
-  {
-    "objectID": "pages/tools.html#open-assistants",
-    "href": "pages/tools.html#open-assistants",
-    "title": "KI Weiterbildung Gesundheit //",
-    "section": "",
-    "text": "🤗 HuggingChat"
-  },
-  {
-    "objectID": "pages/tools.html#ai-tools",
-    "href": "pages/tools.html#ai-tools",
-    "title": "KI Weiterbildung Gesundheit //",
-    "section": "AI Tools",
-    "text": "AI Tools\n👉🏼 The largest AI tools directory (updated daily)"
-  },
-  {
-    "objectID": "pages/tools.html#literatursuche",
-    "href": "pages/tools.html#literatursuche",
-    "title": "KI Weiterbildung Gesundheit //",
-    "section": "Literatursuche",
-    "text": "Literatursuche\n👉🏼 Elicit\n👉🏼 Consensus"
-  },
-  {
-    "objectID": "pages/tools.html#prompt-engineering",
-    "href": "pages/tools.html#prompt-engineering",
-    "title": "KI Weiterbildung Gesundheit //",
-    "section": "Prompt Engineering",
-    "text": "Prompt Engineering\n👉🏼 Prompting Guide"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#what-is-artifical-intelligence",
-    "href": "slides/wb-lindenhof-20240909.html#what-is-artifical-intelligence",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "What is Artifical Intelligence?",
-    "text": "What is Artifical Intelligence?\n\n\n\n\nA branch of computer science that aims to create machines that can perform tasks that typically require human intelligence."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#what-is-a-large-language-model",
-    "href": "slides/wb-lindenhof-20240909.html#what-is-a-large-language-model",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "What is a Large Language Model?",
-    "text": "What is a Large Language Model?\n\n\n\n\nAn LLM is a type of generative AI model that is trained to predict the next word following the input (prompt)."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#how-to-train-a-language-model",
-    "href": "slides/wb-lindenhof-20240909.html#how-to-train-a-language-model",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "How to train a language model",
-    "text": "How to train a language model\n\nAn LLM learns to predict the next word in a sequence, given the previous words: \\[ P(word | context) \\]\nThink of as “fancy autocomplete” (but very very powerful and sopisticated)"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#how-does-an-llm-generate-text",
-    "href": "slides/wb-lindenhof-20240909.html#how-does-an-llm-generate-text",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "How does an LLM generate text?",
-    "text": "How does an LLM generate text?"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#sampling",
-    "href": "slides/wb-lindenhof-20240909.html#sampling",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Sampling",
-    "text": "Sampling"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#auto-regressive-generation",
-    "href": "slides/wb-lindenhof-20240909.html#auto-regressive-generation",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Auto-regressive generation",
-    "text": "Auto-regressive generation\nText is generated one word at a time (actually tokens, not words).\n\n\n\n\n\n Generated text depends on the generative model and the context.\n Every word (token) is given an equal amount time (computation per token is constant)."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#auto-regressive-generation-1",
-    "href": "slides/wb-lindenhof-20240909.html#auto-regressive-generation-1",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Auto-regressive generation",
-    "text": "Auto-regressive generation"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#foundation-models",
-    "href": "slides/wb-lindenhof-20240909.html#foundation-models",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Foundation models",
-    "text": "Foundation models\nA foundation model, or large language model (LLM):\n\nis a type of machine learning model that is trained to predict the next word following the input (prompt).\nis trained “simply” to predict the next word following a sequence of words.\ndoes not necessarily produce human-like conversations.\n\n\n\n\n: What is the capital of France?\n: What is the capital of Germany? What is the capital of Italy? . .."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#training-process",
-    "href": "slides/wb-lindenhof-20240909.html#training-process",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Training process",
-    "text": "Training process\n\n\nFigure courtesy of Andrej Karpathy"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#assistant-models",
-    "href": "slides/wb-lindenhof-20240909.html#assistant-models",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Assistant models",
-    "text": "Assistant models\nTrained (fine-tuned) to have conversations: turn-taking, question answering, not being rude/sexist/racist.\n\n\n\n\n\n\nFoundation model has learned to predict all kinds of text, including both desirable and undesirable text.\nFine-tuning narrows down the space of all possible output to only desirable, human-like dialogue.\nModel is aligned with the values of the fine-tuner."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#how-do-chatbots-work",
-    "href": "slides/wb-lindenhof-20240909.html#how-do-chatbots-work",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "How do Chatbots work?",
-    "text": "How do Chatbots work?\n\n\nDesigned to present the illusion of a conversation between two entities."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#how-do-chatbots-actually-work",
-    "href": "slides/wb-lindenhof-20240909.html#how-do-chatbots-actually-work",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "How do chatbots actually work?",
-    "text": "How do chatbots actually work?"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#an-assistant-model-is-a-conversation-simulator",
-    "href": "slides/wb-lindenhof-20240909.html#an-assistant-model-is-a-conversation-simulator",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "An assistant model is a conversation simulator",
-    "text": "An assistant model is a conversation simulator\n\n\n\n\n\nAn assistant is trained to respond to user prompts in a human-like way.\nSimulates possible human conversations.\nHas no intentions. It is not an entity with its own goals.\nDoes not have a “personality” or “character” in the traditional sense. It can be thought of as a role-playing simulator.\nHas no concept of “truth” or “lying”. The model is not trying to deceive the user, it is simply trying to respond in a human-like way."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#capabilities-and-limitations",
-    "href": "slides/wb-lindenhof-20240909.html#capabilities-and-limitations",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Capabilities and limitations",
-    "text": "Capabilities and limitations\n\n\nWhat are LLMs good at?\n\nFixing grammar, bad writing, etc.\nRephrasing\nAnalyzing texts\nWriting computer code\nAnswering questions about a knowledge base\nTranslating languages\nCreating structured output\nFactual output with external documents or web search\n\n\nLimitations\n\nThey make stuff up (hallucinate)\nThey learn biases from the training data\nWeird vocabulary, e.g. delve\n(Chatbots have privacy issues)"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#hallucination",
-    "href": "slides/wb-lindenhof-20240909.html#hallucination",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Hallucination",
-    "text": "Hallucination\n\n\n\n\n\nLLMs can generate text that is not true, or not based on any real-world knowledge.\nThis is known as “hallucination”. A better term would be “confabulation”."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#can-an-llm-tell-the-truth",
-    "href": "slides/wb-lindenhof-20240909.html#can-an-llm-tell-the-truth",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Can an LLM tell the truth?",
-    "text": "Can an LLM tell the truth?\n\nHow would you know if an LLM is able to give you factual information?\nHow would you test this?\n\n\n\n\n: What is the capital of Uzbekistan?\n: Tashkent\n\n\n\nIt looks like the LLM knows the capital of Uzbekistan1.\nWhat it is actually doing is responding with the most likely sequence following the question."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#knowledge-base",
-    "href": "slides/wb-lindenhof-20240909.html#knowledge-base",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Knowledge base",
-    "text": "Knowledge base\n\n\n\nA knowledge base is a collection of facts about the world.\n\nYou can ask (retrieve) and tell (store) facts.\n\nAn LLM is not a knowledge base.\n\nLLMs generate text based on on how probable the next word is given the context, not based on stored facts."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#biases",
-    "href": "slides/wb-lindenhof-20240909.html#biases",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Biases",
-    "text": "Biases\n\n\n\n\n\n\n\n\nBiases in LLMs\nSource\nExamples\n\n\n\n\nTraining data bias\nText from internet, books, articles.\nStereotypes reflecting gender, race, religion.\n\n\nRepresentation bias\nUnderrepresented groups/perspectives in data.\nLess accurate responses for minority cultures.\n\n\nAlgorithmic bias\nTraining and fine-tuning algorithms.\nOptimizations for fluency and coherence may lead to preference for dominant cultural narratives.\n\n\nUser interaction bias\nAdaptation based on user interactions.\nIncreased biased or harmful content generation."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#privacy-concerns",
-    "href": "slides/wb-lindenhof-20240909.html#privacy-concerns",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Privacy concerns",
-    "text": "Privacy concerns\n\n\n\n\n\n\n\n\nPrivacy Concerns\nIssue\nExamples\n\n\n\n\nData memorization\nMemorizing sensitive information.\nReproducing phone numbers, addresses.\n\n\nTraining data leakage\nUnauthorized dissemination of confidential data.\nSummarizing proprietary documents.\n\n\nUser query logging\nStoring sensitive user interactions.\nExposing private queries if data is mishandled.\n\n\nQueries used for training\nUser queries may be used for further training.\nPersonal data in queries could be inadvertently included in training data."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#prompting",
-    "href": "slides/wb-lindenhof-20240909.html#prompting",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Prompting",
-    "text": "Prompting"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#what-is-a-prompt",
-    "href": "slides/wb-lindenhof-20240909.html#what-is-a-prompt",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "What is a prompt?",
-    "text": "What is a prompt?\n\nAn LLM’s task is to complete text.\nA prompt is a piece of text (instruction) that is given to a language model to complete.\n\n\n\n\nPROMPT : Write a haiku about a workshop on large language models.\nASSISTANT : Whispers of circuits,\nKnowledge blooms in bytes and bits,\nModel learns and fits.\n\n\n\n\nThe response is generated as continuation of, and conditioned on, the prompt.\n\n\nMore technical definition: The output is generated by auto-regressively sampling from the probability distribution over the vocabulary, conditioned on the prompt."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#prompt-engineering",
-    "href": "slides/wb-lindenhof-20240909.html#prompt-engineering",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Prompt engineering",
-    "text": "Prompt engineering\n\n\n\n\n\nLLMs learn to do things they were not explicitly trained to do: translation, reasoning, etc. \nOften, these capabilities need to be “unlocked” by the right prompt. \n\n\n\nBut what is the right prompt?\nThe answer is very similar to what you would tell a human dialogue partner/assistant.\nYou can increase the probability of getting the desired output by providing context and examples."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#basics-of-prompting",
-    "href": "slides/wb-lindenhof-20240909.html#basics-of-prompting",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Basics of prompting",
-    "text": "Basics of prompting\nOpenAI give a set of strategies for using their models effectively:\n Prompt engineering\nThese include:\n\nwriting clear instructions\nproviding reference texts\nsplitting tasks into subtasks\ngiving the LLM ‘time to think’\nusing external tools"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#writing-clear-instructions",
-    "href": "slides/wb-lindenhof-20240909.html#writing-clear-instructions",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Writing clear instructions",
-    "text": "Writing clear instructions\n\n\n\nInstructions should be clear and unambiguous.\nThink of an LLM as a role-playing conversation simulator: Indicate which role the model (persona) should adopt.\n\n\n\n\n\n\nInclude details in your query to get more relevant answers\nAsk the model to adopt a persona\nUse delimiters to clearly indicate distinct parts of the input\nSpecify the steps required to complete a task\nProvide examples\nSpecify the desired length of the output"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#adopt-a-persona-role",
-    "href": "slides/wb-lindenhof-20240909.html#adopt-a-persona-role",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Adopt a persona (role)",
-    "text": "Adopt a persona (role)\n\n\n\n: You are an expert on learning techniques. Explain the concept of ‘flipped classroom’ in one paragraph.\n\n\n\n\n\n\n: You are an expert financial derivatives. Explain the concept of ‘flipped classroom’ in one paragraph."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#provide-reference-texts",
-    "href": "slides/wb-lindenhof-20240909.html#provide-reference-texts",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Provide reference texts",
-    "text": "Provide reference texts\n\nProvide a model with trusted and relevant information.\nThen instruct the model to use the provided information to compose its answer.\n\n Instruct the model to answer using a reference text\n\n\n\nThis can be extended to retrieval-augmented generation (RAG). First create a database of documents, then retrieve the most relevant documents, based on a user’s query. These are then included in the prompt to the model. The model is instructed to use the information in the documents to compose its answer."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#create-structured-output",
-    "href": "slides/wb-lindenhof-20240909.html#create-structured-output",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Create structured output",
-    "text": "Create structured output\n\nExplanation: Instruct the model to generate structured output.\nE.g. provide a table, a list, a diagram, etc.\nUse delimiters to indicate distinct parts of the input.\nExample: Extract information from a text and present it in a table."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#structured-prompting-techniques",
-    "href": "slides/wb-lindenhof-20240909.html#structured-prompting-techniques",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Structured prompting techniques",
-    "text": "Structured prompting techniques\n\nIn-Context Learning: Provide examples within the prompt.\nThought Generation: Instruct the model to think step-by-step.\nDecomposition Techniques: Break down tasks into subtasks.\n\n(Schulhoff et al. 2024)"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#in-context-learning",
-    "href": "slides/wb-lindenhof-20240909.html#in-context-learning",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "In-Context learning",
-    "text": "In-Context learning\n\nExplanation: Providing examples or context within the prompt itself.\nFew-shot prompting: Give a few examples.\n\nExample: Translate the following sentences:\n\nEnglish: ‘What time is it?’ -&gt; French: ‘Quelle heure est-il?’\nEnglish: ‘Where is the library?’ -&gt; French:\n\n\nZero-shot prompting: No examples, relies on pre-trained knowledge.\n\nExample: Translate the following sentence…"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#thought-generation",
-    "href": "slides/wb-lindenhof-20240909.html#thought-generation",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Thought generation",
-    "text": "Thought generation\n\nExplanation: Encourages the model to show its reasoning process.\nChain-of-Thought (CoT) prompting: encourages the LLM to “explain” its intermediate reasoning steps.\nCan often be induced by simply instructing the model to think step-by-step or Take a deep breath and work on this problem step-by-step (Yang et al. 2023)."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#chain-of-thought-example",
-    "href": "slides/wb-lindenhof-20240909.html#chain-of-thought-example",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Chain-of-Thought example",
-    "text": "Chain-of-Thought example\nInstead of this:\n\n\n\n: The odd numbers in this group add up to an even number: 4, 8, 9, 15, 12, 2, 1. Yes or no?\n\n\n\nDo this:\n\n\n\n: Is this statement correct? The odd numbers in this group add up to an even number: 4, 8, 9, 15, 12, 2, 1.\nReason through the problem step-by-step. Start by identifying the odd numbers. Next, add them up. Finally, determine if the sum is even or odd. Write down your reasoning steps in a numbered list.\n\n\n\n\nWhy does this work?"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#decomposition-techniques",
-    "href": "slides/wb-lindenhof-20240909.html#decomposition-techniques",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Decomposition techniques",
-    "text": "Decomposition techniques\n\nExplanation: Force the LLM to break down complex tasks into manageable subtasks.\nLeast-to-Most Prompting: Start simple, increase complexity.\n\nExample: List items, calculate cost…\n\nPlan-and-Solve Prompting: Separate planning and execution phases.\n\nExample: Understand the problem, devise a plan…"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#hands-on-practice-prompting",
-    "href": "slides/wb-lindenhof-20240909.html#hands-on-practice-prompting",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Hands-on practice: Prompting",
-    "text": "Hands-on practice: Prompting\n Open this activity.\n\nPractice writing prompts for different tasks ( 20 minutes).\nWrite an essay using an LLM, and then critique someone else’s essay ( 30 minutes).\n\n  If you need further help with prompting techniques, see these websites:\n\n Learn prompting\n Prompting guide\n OpenAI cookbook"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#chatgpt-edu",
-    "href": "slides/wb-lindenhof-20240909.html#chatgpt-edu",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "ChatGPT Edu",
-    "text": "ChatGPT Edu\n\n\n \n\n\n\n\nAccess to GPT-4o, excelling in text interpretation, coding, and mathematics\nData analytics, web browsing, and document summarization\nBuild GPTs, custom versions of ChatGPT, and share them within university workspaces\nSignificantly higher message limits than the free version of ChatGPT\nImproved language capabilities across quality and speed, with over 50 languages supported\nRobust security, data privacy, and administrative controls\nConversations and data are not used to train OpenAI models"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#gpts",
-    "href": "slides/wb-lindenhof-20240909.html#gpts",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "GPTs",
-    "text": "GPTs"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#hands-on-practice-gpts",
-    "href": "slides/wb-lindenhof-20240909.html#hands-on-practice-gpts",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Hands-on practice: GPTs",
-    "text": "Hands-on practice: GPTs\n\nTry out custom GPTs from various categories in the GPT store.\nDiscuss with your neighbour\n\nDid you discover any useful GPTs?\nWhat are the benefits and limitations of using GPTs in the classroom?"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#extended-cognition",
-    "href": "slides/wb-lindenhof-20240909.html#extended-cognition",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Extended cognition",
-    "text": "Extended cognition\n\n\n\nAccording to Clark and Chalmers (1998), cognitive processes may extend to external objects.\nKrakauer (2016) distinguishes between complementary and competitive cognitive artifacts.\n\nComplementary: numbers, abacus\nCompetetive: calculator, GPS\n\nWhat kind of artefact will AI turn out to be?"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#deskilling-vs.-upskilling",
-    "href": "slides/wb-lindenhof-20240909.html#deskilling-vs.-upskilling",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Deskilling vs. upskilling",
-    "text": "Deskilling vs. upskilling"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#writing-tasks-in-the-ai-era",
-    "href": "slides/wb-lindenhof-20240909.html#writing-tasks-in-the-ai-era",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Writing tasks in the AI era",
-    "text": "Writing tasks in the AI era\n\nWriting is a core skill: critical thinking, persuasion, argumentation, understanding.\nText creation is secondary in learning: focus is on underlying skills.\nLearning objectives: Benefits of writing tasks should be clearly and convincingly conveyed.\nStudents should be equipped for effective (controlled) use of AI."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#ai-can-do-my-homework",
-    "href": "slides/wb-lindenhof-20240909.html#ai-can-do-my-homework",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "AI can do my homework",
-    "text": "AI can do my homework\n\nWe can think of this as cheating.\nMore useful: cheating means bypassing useful cognition and therefore missing out on learning.\nCheating an ethics problem.\nBypassing cognition is a learning problem.\nNot a new problem: books, encyclopedias, calculators, spell checkers, etc."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#controlled-use-of-llms",
-    "href": "slides/wb-lindenhof-20240909.html#controlled-use-of-llms",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Controlled use of LLMs",
-    "text": "Controlled use of LLMs\n\n\n\n\n\n\n\nTask Category\nSpecific Tasks\n\n\n\n\nEditing tasks\nCreate/improve different versions of sections.\n\n\nTransitions\nWrite and compare transitions.\n\n\nImprove drafts\nCritique and refine drafts.\n\n\nWriting styles\nRewrite sections for different audiences.\n\n\nControversial statements\nIdentify controversial points and strengthen arguments.\n\n\nResearch journal\nKeep a diary and use LLM for reflection."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#sport-vs.-writing",
-    "href": "slides/wb-lindenhof-20240909.html#sport-vs.-writing",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Sport vs. writing",
-    "text": "Sport vs. writing\n\n\n\nTechnological advancements in sports: a useful analogy for learning?\nDistinction between training and competition.\n\n\n\n\n\n\n\n\n\n\n\n\n\nLZR Racer swim suit\nAI-base writing tools\n\n\n\n\nImprovement\nReduced Resistance, Increased Buoyancy\nImproved Grammar, Formulation, Content Creation\n\n\nFairness\nProvided an Unfair Advantage, Led to Record Performances\nConsidered Unfair in Academic Contexts\n\n\nImpact\nBanned to Maintain Competitive Integrity\nRaises Questions of Originality and Skill Development"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#understanding-the-value-of-effort",
-    "href": "slides/wb-lindenhof-20240909.html#understanding-the-value-of-effort",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Understanding the value of effort",
-    "text": "Understanding the value of effort\n\nCheating can be a symptom that learners do not understand or value the importance of their own work.\nJust like in sport: if we take shortcuts during training, we won’t get fit.\nUnderstanding the purpose is important to endure discomfort.\nLearners need to understand what they are supposed to learn, why it is valuable, and why effort and discomfort are necessary."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#fraud-triangle",
-    "href": "slides/wb-lindenhof-20240909.html#fraud-triangle",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Fraud triangle",
-    "text": "Fraud triangle"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#learning-environments-that-promote-cheating",
-    "href": "slides/wb-lindenhof-20240909.html#learning-environments-that-promote-cheating",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Learning Environments that promote cheating",
-    "text": "Learning Environments that promote cheating\n\n\n\n\n\n\n\nFactors\nDescriptions\n\n\n\n\nHigh pressure\nHigh stakes increase cheating. Fear of failure reinforces this.\n\n\nLack of intrinsic motivation\nEngagement and relevance are important. Lacking these makes cheating more attractive.\n\n\nPerceived injustice\nUnfair grading leads to cheating.\n\n\nLow fear of getting caught\nLow risk encourages cheating.\n\n\nPeer influence\nWidespread cheating among peers pressures students to join in.\n\n\nLow self-efficacy\nDoubts about one’s own abilities increase cheating as the seemingly only option."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#strategies-to-reduce-cheating",
-    "href": "slides/wb-lindenhof-20240909.html#strategies-to-reduce-cheating",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Strategies to Reduce Cheating",
-    "text": "Strategies to Reduce Cheating\n\n\n\n\n\n\n\nStrategies\nDescriptions\n\n\n\n\nFoster intrinsic motivation\nSpark genuine interest. Provide choices and practical applications.\n\n\nMastery learning\nClear learning objectives. Focus on mastery of content. Include constructive and corrective feedback in formative assessments.\n\n\nReduce pressure\nDiversify assessment methods. Use portfolios and low-stress tests to reduce anxiety.\n\n\nStrengthen self-efficacy\nProvide constructive feedback and promote peer learning (peer tutoring, peer review).\n\n\nCreate a culture of integrity\nOpen discussion about academic integrity. Set clear guidelines and promote community ethics."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#academic-integrity-plagiarism",
-    "href": "slides/wb-lindenhof-20240909.html#academic-integrity-plagiarism",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Academic Integrity: Plagiarism",
-    "text": "Academic Integrity: Plagiarism\n\n\n\n\n\n\n\nTypes of Plagiarism\nDescription\n\n\n\n\nUnattributed use\nUsing the work or ideas of others without proper attribution.\n\n\nMinor changes or translations\nUsing the work of others with minor changes or translations without attribution.\n\n\nSelf-plagiarism\nReusing substantial parts of one’s own work without proper citation.\n\n\nJoint works\nReusing jointly written publications without proper acknowledgment."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#academic-integrity-misconduct-in-authorship",
-    "href": "slides/wb-lindenhof-20240909.html#academic-integrity-misconduct-in-authorship",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Academic Integrity: Misconduct in authorship",
-    "text": "Academic Integrity: Misconduct in authorship\n\n\n\n\n\n\n\nTypes of Plagiarism\nDescription\n\n\n\n\nUnattributed use\nUsing the work or ideas of others without proper attribution.\n\n\nMinor changes or translations\nUsing the work of others with minor changes or translations without attribution.\n\n\nSelf-plagiarism\nReusing substantial parts of one’s own work without proper citation.\n\n\nJoint works\nReusing jointly written publications without proper acknowledgment."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#how-to-cite-chatgpt",
-    "href": "slides/wb-lindenhof-20240909.html#how-to-cite-chatgpt",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "How to cite ChatGPT",
-    "text": "How to cite ChatGPT\nE.g. APA Style: Cite as software (not as personal communication)."
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#documentating-ai-use",
-    "href": "slides/wb-lindenhof-20240909.html#documentating-ai-use",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Documentating AI use",
-    "text": "Documentating AI use\n\nSpecifying prompts works well for inexperienced users, but inadequately reflects complex processes.\nExperienced users work with dialogues and several tools, not monolithic prompts in ChatGPT.\nWorking with copilot (code): no traceable prompt input.\nInstead: Document the process, including the tools used and the steps taken.\n\nInclude used tools and steps in appendix, with optional graphical representation.\nServes both evaluation and self-reflection.\n\nIs documentation meaningful in the long term, once the use of AI-based tools has become commonplace?"
-  },
-  {
-    "objectID": "slides/wb-lindenhof-20240909.html#detecting-ai-use",
-    "href": "slides/wb-lindenhof-20240909.html#detecting-ai-use",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Detecting AI use",
-    "text": "Detecting AI use\n\nCan be detected by the use of specific vocabulary and phrases: “delve”, “vibrant”, “embark”, “it’s important to note”, ” based on the data provided”.\nDetection tools are not very useful, and can be easily circumvented.\nAccording to Fleckenstein et al. (2024)\n\nGenerative AI can write papers that are undetectable.\nTeachers overestimate their detection abilities."
-  },
-  {
-    "objectID": "pages/main.html",
-    "href": "pages/main.html",
-    "title": "Hands-On Practice: Prompting",
-    "section": "",
-    "text": "In general, it is advisable to improve your prompting strategy by iterating.\nStart with a simple prompt, see what the model generates, and then refine. Repeat this process until you are satisfied with the results.\nOnce you have a good prompt, you can use it in a new chat session - in this way, the “failed” attempts will not be part of the context."
-  },
-  {
-    "objectID": "pages/main.html#some-text",
-    "href": "pages/main.html#some-text",
-    "title": "Hands-On Practice: Prompting",
-    "section": "Some text",
-    "text": "Some text\n\nAn LLM is a type of generative AI model that is trained to predict the next word following the input (prompt)."
-  },
-  {
-    "objectID": "slides/presentation.html",
-    "href": "slides/presentation.html",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "",
-    "text": "What are LLMs?\nUnderstanding LLM capabilities and limitations\nFundamentals of prompting\nBreak\nLLMs in the classroom\nEssential skills\nAcademic integrity\nConclusion"
-  },
-  {
-    "objectID": "slides/presentation.html#what-is-artifical-intelligence",
-    "href": "slides/presentation.html#what-is-artifical-intelligence",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "What is Artifical Intelligence?",
-    "text": "What is Artifical Intelligence?\n\n\n\n\nA branch of computer science that aims to create machines that can perform tasks that typically require human intelligence."
-  },
-  {
-    "objectID": "slides/presentation.html#what-is-a-large-language-model",
-    "href": "slides/presentation.html#what-is-a-large-language-model",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "What is a Large Language Model?",
-    "text": "What is a Large Language Model?\n\n\n\n\nAn LLM is a type of generative AI model that is trained to predict the next word following the input (prompt)."
-  },
-  {
-    "objectID": "slides/presentation.html#embed",
-    "href": "slides/presentation.html#embed",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Embed",
-    "text": "Embed"
-  },
-  {
-    "objectID": "slides/presentation.html#some-text",
-    "href": "slides/presentation.html#some-text",
-    "title": "Präsentation: KI Weiterbildung Lindenhofspital",
-    "section": "Some text",
-    "text": "Some text\n\nAn LLM is a type of generative AI model that is trained to predict the next word following the input (prompt)."
+    "text": "Back to top"
   },
   {
     "objectID": "pages/agenda.html",
@@ -938,10 +735,164 @@
     "text": "Instructors\n\nAndrew Ellis, Virtual Academy at the Bern University of Applied Sciences:\nAndrew, a data scientist at the Virtual Academy, explores the convergence of language, thought, and AI. He teaches and researches generative AI’s role in education at BFH, focusing on human interactions with large language models and the impact of AI learning tools on educational outcomes. Andrew holds a PhD in cognitive psychology from the University of Bern, where he studied mental imagery and perception.\nKaspar Kaufmann, Virtual Academy at the Bern University of Applied Sciences:\nAs a researcher at the Virtual Academy, Kaspar aims to promote digital competencies among teachers and learners at BFH. He is passionate about fostering a community of confident, critical and responsible users of digital technologies for education, work and civic participation."
   },
   {
-    "objectID": "pages/about.html#ki-kurse-der-virtuellen-akademie",
-    "href": "pages/about.html#ki-kurse-der-virtuellen-akademie",
-    "title": "Virtuelle Akademie",
+    "objectID": "pages/main.html",
+    "href": "pages/main.html",
+    "title": "Hands-On Practice: Prompting",
     "section": "",
-    "text": "Prompt-Labor: Basics zu KI-Sprachmodellen\n\n\n\nMöchtest du das volle Potential von Sprachmodellen wie ChatGPT ausschöpfen? In diesem Prompt-Labor tauchen wir sowohl in die Grundlagen von Sprachmodellen als auch in Techniken zur Erstellung effektiver Prompts ein.\nInhalt:\n\nWas sind KI-Sprachmodelle? Wie werden sie trainiert?\nWie generieren KI-Sprachmodelle Text?\nWie kommuniziere ich mit KI-Sprachmodellen? Wie schreibe ich gute Prompts?\n\nNächste Termine:\n23.02.2024, 14–16h\n22.04.2024, 10–12h\n www.bfh.ch/de/weiterbildung/kurse/prompt-labor-basics/\n\n\n\n\n\n\n\n\nPrompt-Labor Vertiefung: KI-Sprachmodelle in der Lehre nutzen\n\n\n\nMöchtest du Tools wie ChatGPT oder Chatbots für deinen Unterricht oder deine Weiterbildung nutzen? Das Prompt-Labor bietet Raum zum Experimentieren, Diskutieren und Entwickeln.\nInhalt:\n\nWie können Sprachmodelle genutzt werden, um Lehr- und Lernstrategien zu implementieren?\n\nNächste Termine:\n13.03.2024, 10–12h\n01.05.2024, 10–12h\n17.05.2024, 13.30–15.30\n www.bfh.ch/de/weiterbildung/kurse/prompt-labor-vertiefung/"
+    "text": "In general, it is advisable to improve your prompting strategy by iterating.\nStart with a simple prompt, see what the model generates, and then refine. Repeat this process until you are satisfied with the results.\nOnce you have a good prompt, you can use it in a new chat session - in this way, the “failed” attempts will not be part of the context."
+  },
+  {
+    "objectID": "pages/main.html#some-text",
+    "href": "pages/main.html#some-text",
+    "title": "Hands-On Practice: Prompting",
+    "section": "Some text",
+    "text": "Some text\n\nAn LLM is a type of generative AI model that is trained to predict the next word following the input (prompt)."
+  },
+  {
+    "objectID": "pages/tools.html",
+    "href": "pages/tools.html",
+    "title": "KI Weiterbildung Gesundheit //",
+    "section": "",
+    "text": "🤗 HuggingChat"
+  },
+  {
+    "objectID": "pages/tools.html#open-assistants",
+    "href": "pages/tools.html#open-assistants",
+    "title": "KI Weiterbildung Gesundheit //",
+    "section": "",
+    "text": "🤗 HuggingChat"
+  },
+  {
+    "objectID": "pages/tools.html#ai-tools",
+    "href": "pages/tools.html#ai-tools",
+    "title": "KI Weiterbildung Gesundheit //",
+    "section": "AI Tools",
+    "text": "AI Tools\n👉🏼 The largest AI tools directory (updated daily)"
+  },
+  {
+    "objectID": "pages/tools.html#literatursuche",
+    "href": "pages/tools.html#literatursuche",
+    "title": "KI Weiterbildung Gesundheit //",
+    "section": "Literatursuche",
+    "text": "Literatursuche\n👉🏼 Elicit\n👉🏼 Consensus"
+  },
+  {
+    "objectID": "pages/tools.html#prompt-engineering",
+    "href": "pages/tools.html#prompt-engineering",
+    "title": "KI Weiterbildung Gesundheit //",
+    "section": "Prompt Engineering",
+    "text": "Prompt Engineering\n👉🏼 Prompting Guide"
+  },
+  {
+    "objectID": "slides/presentation.html#ki-kompetenzen-für-arbeitnehmer-in-der-arbeitswelt",
+    "href": "slides/presentation.html#ki-kompetenzen-für-arbeitnehmer-in-der-arbeitswelt",
+    "title": "Künstliche Intelligenz in Pflegepraxis und Berufsbildung",
+    "section": "KI-Kompetenzen für Arbeitnehmer in der Arbeitswelt",
+    "text": "KI-Kompetenzen für Arbeitnehmer in der Arbeitswelt\n\nKI wird in vielen Branchen eingesetzt und verändert die Arbeitswelt\nArbeitnehmer benötigen neue Kompetenzen im Umgang mit KI:\n\nVerständnis von KI-Systemen und deren Funktionsweise\nKritisches Hinterfragen von KI-Ergebnissen\nVerantwortungsvoller Einsatz von KI\n\nLebenslanges Lernen wird wichtiger, um mit der rasanten Entwicklung Schritt zu halten\n\n Quelle"
+  },
+  {
+    "objectID": "slides/presentation.html#bfh-orientierungshilfe",
+    "href": "slides/presentation.html#bfh-orientierungshilfe",
+    "title": "Künstliche Intelligenz in Pflegepraxis und Berufsbildung",
+    "section": " BFH Orientierungshilfe",
+    "text": "BFH Orientierungshilfe\n\n\n\n\nHaltung der BFH: Technologies that support the learning process and are relevant in practice should be integrated into teaching.\nUse of AI in Teaching: The majority of students will use AI tools. Students should learn to use technologies competently and to critically question them.\n\n\n\n\n \n Virtual Academy Knowledge Base [more up-to-date than PDF]\n PDF"
+  },
+  {
+    "objectID": "slides/presentation.html#was-ist-künstliche-intelligenz",
+    "href": "slides/presentation.html#was-ist-künstliche-intelligenz",
+    "title": "Künstliche Intelligenz in Pflegepraxis und Berufsbildung",
+    "section": "Was ist Künstliche Intelligenz?",
+    "text": "Was ist Künstliche Intelligenz?\n\n\n\n\nDie Künstliche Intelligenz ist ein Zweig der Informatik, der zum Ziel hat, Maschinen zu schaffen, die Aufgaben ausführen können welche normalerweise menschliche Intelligenz erfordern."
+  },
+  {
+    "objectID": "slides/presentation.html#was-ist-chatgpt",
+    "href": "slides/presentation.html#was-ist-chatgpt",
+    "title": "Künstliche Intelligenz in Pflegepraxis und Berufsbildung",
+    "section": "Was ist ChatGPT?",
+    "text": "Was ist ChatGPT?\nChatGPT is a chatbot that uses a large language model to generate responses to user input."
+  },
+  {
+    "objectID": "slides/presentation.html#what-is-a-large-language-model",
+    "href": "slides/presentation.html#what-is-a-large-language-model",
+    "title": "Künstliche Intelligenz in Pflegepraxis und Berufsbildung",
+    "section": "What is a Large Language Model?",
+    "text": "What is a Large Language Model?\n\n\n\n\nAn LLM is a type of generative AI model that is trained to predict the next word following the input (prompt)."
+  },
+  {
+    "objectID": "slides/presentation.html#wie-wird-eine-large-language-model-trainiert",
+    "href": "slides/presentation.html#wie-wird-eine-large-language-model-trainiert",
+    "title": "Künstliche Intelligenz in Pflegepraxis und Berufsbildung",
+    "section": "Wie wird eine Large Language Model trainiert?",
+    "text": "Wie wird eine Large Language Model trainiert?\nLarge Language Models (LLMs) are trained on vast amounts of text data from various sources like websites and books. The key steps are:\n\nCollect a massive dataset of text.\nClean and preprocess the text data.\nBreak the text into smaller units called tokens.\nUse a neural network architecture like Transformers.\nTrain the model to predict the next token based on the previous ones.\n\nThe model learns patterns and relationships between words, allowing it to generate coherent text when prompted."
+  },
+  {
+    "objectID": "slides/presentation.html#instruction-following-and-alignment",
+    "href": "slides/presentation.html#instruction-following-and-alignment",
+    "title": "Künstliche Intelligenz in Pflegepraxis und Berufsbildung",
+    "section": "Instruction following and Alignment",
+    "text": "Instruction following and Alignment"
+  },
+  {
+    "objectID": "slides/presentation.html#wie-generiert-ein-llm-text",
+    "href": "slides/presentation.html#wie-generiert-ein-llm-text",
+    "title": "Künstliche Intelligenz in Pflegepraxis und Berufsbildung",
+    "section": "Wie generiert ein LLM Text?",
+    "text": "Wie generiert ein LLM Text?\n\nEin LLM erhält einen Prompt oder Starttext als Eingabe\nEs nutzt sein Training, um das wahrscheinlichste nächste Wort oder Token vorherzusagen\nDieser Prozess wird wiederholt, wobei Wort für Wort generiert wird\nBis der gewünschte Ausgabetext produziert ist"
+  },
+  {
+    "objectID": "slides/presentation.html#textgenerierung",
+    "href": "slides/presentation.html#textgenerierung",
+    "title": "Künstliche Intelligenz in Pflegepraxis und Berufsbildung",
+    "section": "Textgenerierung",
+    "text": "Textgenerierung\n\nLLMs generieren Text, indem sie Wort für Wort die wahrscheinlichste Fortsetzung basierend auf dem vorherigen Kontext vorhersagen\nDieser Prozess wird wiederholt, bis der gewünschte Text vollständig generiert ist\nDie Vorhersagen basieren auf den Mustern, die das Modell während des Trainings gelernt hat\nDer generierte Text kann durch Anpassung von Parametern wie “Temperatur” beeinflusst werden, um kreativere oder kohärentere Ausgaben zu erhalten\nAusrichtung ist der Prozess, um sicherzustellen, dass ein KI-System sich in einer Weise verhält, die mit menschlichen Werten übereinstimmt\nDies beinhaltet, das Modell so zu trainieren, dass es Anweisungen folgt und die Generierung schädlicher oder voreingenommener Inhalte vermeidet\nTechniken für die Ausrichtung umfassen Belohnungsmodellierung, bei der das Modell trainiert wird, Antworten zu generieren, die mit menschlichen Präferenzen übereinstimmen, sowie verstärkendes Lernen, bei dem das Modell trainiert wird, Antworten zu generieren, die mit menschlichen Werten übereinstimmen"
+  },
+  {
+    "objectID": "slides/presentation.html#chatgpt",
+    "href": "slides/presentation.html#chatgpt",
+    "title": "Künstliche Intelligenz in Pflegepraxis und Berufsbildung",
+    "section": "ChatGPT",
+    "text": "ChatGPT\nChatGPT is a large language model trained on a vast amount of text data from the internet. However, it is not just a regular language model. ChatGPT has been further trained using reinforcement learning techniques to follow instructions and generate responses that are aligned with human values and preferences.\nThis additional training helps ChatGPT to:\n\nUnderstand and follow the intent behind prompts and instructions\nGenerate responses that are relevant, coherent, and avoid harmful or biased content\nEngage in multi-turn conversations and maintain context over multiple exchanges"
+  },
+  {
+    "objectID": "slides/presentation.html#wie-generiert-ein-llm-text-1",
+    "href": "slides/presentation.html#wie-generiert-ein-llm-text-1",
+    "title": "Künstliche Intelligenz in Pflegepraxis und Berufsbildung",
+    "section": "Wie generiert ein LLM Text?",
+    "text": "Wie generiert ein LLM Text?\n\nAn LLM takes in a prompt or starting text as input\nIt uses its training to predict the most likely next word or token\nThis process is repeated, generating one word at a time\nUntil the desired output text is produced"
+  },
+  {
+    "objectID": "slides/presentation.html#text-generation",
+    "href": "slides/presentation.html#text-generation",
+    "title": "Künstliche Intelligenz in Pflegepraxis und Berufsbildung",
+    "section": "Text generation",
+    "text": "Text generation"
+  },
+  {
+    "objectID": "slides/presentation.html#questions",
+    "href": "slides/presentation.html#questions",
+    "title": "Künstliche Intelligenz in Pflegepraxis und Berufsbildung",
+    "section": "Questions?",
+    "text": "Questions?\nThank you for your attention!\nFeel free to reach out with any questions or for further resources."
+  },
+  {
+    "objectID": "pages/activity.html",
+    "href": "pages/activity.html",
+    "title": "Hands-On Practice: Prompting",
+    "section": "",
+    "text": "Designing effective prompts to instruct LLMs to generate a desired output is referred to as prompt engineering. This activity will guide you through the process of creating prompts for LLMs."
+  },
+  {
+    "objectID": "pages/activity.html#general-tips",
+    "href": "pages/activity.html#general-tips",
+    "title": "Hands-On Practice: Prompting",
+    "section": "General tips",
+    "text": "General tips\nOpenAI give a set of  strategies for using their models. If you need examples, this might be a good place to start.\nThe strategies include:\n\nwriting clear instructions\nproviding reference texts\nsplitting tasks into subtasks\ngiving GPT ‘time to think’\nusing external tools\n\nSome general techniques are:\n\nNumbered Steps:: For sequential tasks, use numbered steps. This helps the model understand the sequence of actions.\nUse delimiters: To separate various parts of the prompt (e.g. \", `,, ', |, #, …).\nFew-shot prompting: Provide a few examples for guidance.\n\nCombining these techniques, a template prompt might look like this:\n\n\n\n\n\n\nTemplate\n\n\n\n\nRole: who is being simulated?\nTask: what is to be done?\nSteps: what are the steps to complete the task?\nContext: what is the context of the task?\nGoal: what is the goal of the task?\nFormat: what is the format of the output? How long should it be?\n\n\n\nRemember to structure your prompt in a way that is clear and easy to understand. You can use markdown to format your prompt, and you instruct the mode to format its response using markdown.\n\nExample\n\n\n\n\n\n\n Prompt:\n\n\n\nYou are an expert on the topic of university education and didactics. Explain the concept of “flipped classroom” to a group of teachers. Use markdown to format your response. Keep you explanation concise and to the point.\n\n\nDifferent persona:\n\n\n\n\n\n\n Prompt:\n\n\n\nYou are 13 year old high school student. Explain the concept of “flipped classroom” to your friends. Use markdown to format your response. Keep you explanation concise and to the point.\n\n\nAsk the model to output a table:\n\n\n\n\n\n\n Prompt:\n\n\n\nYou are a high school teacher. Give me a table containing Greek letters in one column, their pronunciation in the second column, and examples of usage in the third column. Give me a maximum of 6 rows."
+  },
+  {
+    "objectID": "pages/activity.html#structured-prompting-techniques",
+    "href": "pages/activity.html#structured-prompting-techniques",
+    "title": "Hands-On Practice: Prompting",
+    "section": "Structured prompting techniques",
+    "text": "Structured prompting techniques\n\nIn-Context Learning: Provide examples within the prompt\n\nExplanation\nIn-Context Learning involves providing the language model with examples or context within the prompt itself. This technique helps guide the model’s responses by demonstrating the desired output format or type of information.\n\n\nTechniques\n\nFew-Shot Prompting: Provide a few examples of the desired output before asking for a new response.\nZero-Shot Prompting: Ask the model to perform a task without any examples, relying on its pre-trained knowledge.\n\n\n\nExample\n\n\n\n\n\n\n Few-Shot Prompting:\n\n\n\nSummarize the main findings of these research paper abstracts:\n\nAbstract: [Insert first abstract] Summary: The study found that increased physical activity is associated with improved cognitive function in older adults.\nAbstract: [Insert second abstract] Summary: The research demonstrated a positive correlation between employee satisfaction and productivity in remote work environments.\n\nNow summarize this new abstract: [Insert new abstract to be summarized]\n\n\n\n\n\n\n\n\nHands-on Exercise\n\n\n\n\nChoose a topic you’re interested in. If you would like to use an AI-based tool for literature research, you can use Elicit.\nCreate zero-shot and few-shot prompts to extract the research question, methodology, and main findings from the abstracts of three research papers.\n\n\n\n\n\n\nThought Generation: Instruct the model to think step-by-step\n\nExplanation\nThought generation techniques encourage the model to show its reasoning process, making the output more transparent and often more accurate.\n\n\nTechniques\nChain-of-Thought (CoT) Prompting: Ask the model to break down its thinking into steps.\n\nZero-Shot CoT: Request step-by-step reasoning without providing examples.\nFew-Shot CoT: Provide examples of step-by-step reasoning before asking for a new response.\n\n\n\nExample Prompt (Chain-of-Thought):\n\n\n\n\n\n\n Prompt:\n\n\n\nAnalyze the methodology of the following research study. Think through this step-by-step: 1. Identify the research design. 2. Evaluate the appropriateness of the chosen methods. 3. Assess potential limitations or biases. 4. Consider alternative approaches that could have been used.\n[Insert methodology section of a research paper]\n\n\n\n\n\nDecomposition Techniques: Break down tasks into subtasks\n\nExplanation\nDecomposition techniques involve breaking down complex tasks into smaller, more manageable subtasks. This approach can lead to more accurate and comprehensive responses.\n\n\nTechniques\n\nLeast-to-Most Prompting: Start with the simplest subtask and gradually increase complexity. More info here:  Least-to-Most Prompting\nPlan-and-Solve Prompting: Separate the task into a planning phase and an execution phase.\n\n\n\nExample Prompt (Plan-and-Solve):\n\n\n\n\n\n\n Prompt:\n\n\n\nWe need to conduct a systematic literature review on [specific topic]. Let’s approach this in two phases:\nPlanning Phase: 1. Outline the main steps needed for this systematic review. 2. For each step, briefly describe what needs to be considered.\nSolving Phase: Now, let’s address each step in detail, providing specific strategies and methodologies."
   }
 ]

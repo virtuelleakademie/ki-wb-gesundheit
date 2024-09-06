@@ -1,43 +1,51 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
-    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/slides/workshop.html</loc>
-    <lastmod>2024-06-27T02:13:23.566Z</lastmod>
+    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/slides/previous-workshop.html</loc>
+    <lastmod>2024-09-04T22:13:37.803Z</lastmod>
   </url>
   <url>
-    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/pages/activity.html</loc>
-    <lastmod>2024-06-27T06:13:26.326Z</lastmod>
+    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/slides/slides.html</loc>
+    <lastmod>2024-09-04T22:58:40.373Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/slides/llm_intro.html</loc>
+    <lastmod>2024-09-03T23:19:35.349Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/pages/resources.html</loc>
-    <lastmod>2024-02-21T23:51:34.452Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/pages/about.html</loc>
-    <lastmod>2024-09-01T14:03:46.187Z</lastmod>
+    <lastmod>2024-09-06T09:30:48.147Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/pages/index.html</loc>
     <lastmod>2024-08-30T07:48:52.284Z</lastmod>
   </url>
   <url>
-    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/pages/tools.html</loc>
-    <lastmod>2023-10-26T14:36:00.812Z</lastmod>
+    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/pages/about.html</loc>
+    <lastmod>2024-09-01T14:03:46.187Z</lastmod>
   </url>
   <url>
-    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/slides/wb-lindenhof-20240909.html</loc>
-    <lastmod>2024-09-01T13:10:12.996Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/pages/main.html</loc>
-    <lastmod>2024-09-01T14:02:22.501Z</lastmod>
-  </url>
-  <url>
-    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/slides/presentation.html</loc>
-    <lastmod>2024-09-01T13:25:31.948Z</lastmod>
+    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/slides/llm-chatbot-healthcare-education.html</loc>
+    <lastmod>2024-09-04T22:57:15.410Z</lastmod>
   </url>
   <url>
     <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/pages/agenda.html</loc>
     <lastmod>2024-04-30T09:35:51.092Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/pages/main.html</loc>
+    <lastmod>2024-09-01T19:45:37.540Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/pages/tools.html</loc>
+    <lastmod>2023-10-26T14:36:00.812Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/slides/presentation.html</loc>
+    <lastmod>2024-09-05T18:00:02.812Z</lastmod>
+  </url>
+  <url>
+    <loc>https://virtuelleakademie.github.io/ki-wb-gesundheit/pages/activity.html</loc>
+    <lastmod>2024-06-27T06:13:26.326Z</lastmod>
   </url>
 </urlset>

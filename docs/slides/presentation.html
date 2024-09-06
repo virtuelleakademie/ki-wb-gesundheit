@@ -9,11 +9,14 @@
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/quarto-contrib/reveal-header-1.0.0/add_header.js" defer="true"></script>
+<link href="../site_libs/quarto-contrib/reveal-header-1.0.0/add_header.css" rel="stylesheet">
+<link href="../site_libs/quarto-contrib/grid-htext-1.0.0/grid_htext.css" rel="stylesheet">
 <link href="../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
   <meta name="author" content="Andrew Ellis">
-  <title>KI Weiterbildung Gesundheit // – Präsentation: KI Weiterbildung Lindenhofspital</title>
+  <title>KI Weiterbildung Gesundheit // – Künstliche Intelligenz in Pflegepraxis und Berufsbildung</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -356,9 +359,9 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Präsentation: KI Weiterbildung Lindenhofspital – KI Weiterbildung Gesundheit //">
+<meta property="og:title" content="Künstliche Intelligenz in Pflegepraxis und Berufsbildung – KI Weiterbildung Gesundheit //">
 <meta property="og:site_name" content="KI Weiterbildung Gesundheit //">
-<meta name="twitter:title" content="Präsentation: KI Weiterbildung Lindenhofspital – KI Weiterbildung Gesundheit //">
+<meta name="twitter:title" content="Künstliche Intelligenz in Pflegepraxis und Berufsbildung – KI Weiterbildung Gesundheit //">
 <meta name="twitter:creator" content="@awellis">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -366,8 +369,8 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-opacity="1" class="quarto-title-block center">
-  <h1 class="title">Präsentation: KI Weiterbildung Lindenhofspital</h1>
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Künstliche Intelligenz in Pflegepraxis und Berufsbildung</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
@@ -379,9 +382,9 @@ Andrew Ellis
 
   <p class="date">09 September, 2024</p>
 </section>
-<section id="contents" class="title-slide slide level1 center">
-<h1><i class="bi-map " style="" role="img" aria-hidden="true"></i> Contents</h1>
-<!-- - [Go to Guide for Lecturers](#guide-for-lecturers) -->
+<section>
+<section id="inhalt" class="title-slide slide level1 center">
+<h1><i class="bi-map " style="" role="img" aria-hidden="true"></i> Inhalt</h1>
 <ul>
 <li>What are LLMs?</li>
 <li>Understanding LLM capabilities and limitations</li>
@@ -393,14 +396,27 @@ Andrew Ellis
 <li>Conclusion</li>
 </ul>
 </section>
-
-<section id="guide-for-lecturers-at-bfh" class="title-slide slide level1 center">
-<h1><a id="guide-for-lecturers"></a><i class="bi-bookmark-star " style="" role="img" aria-hidden="true"></i> Guide for Lecturers at BFH</h1>
+<section id="ki-kompetenzen-für-arbeitnehmer-in-der-arbeitswelt" class="slide level2">
+<h2>KI-Kompetenzen für Arbeitnehmer in der Arbeitswelt</h2>
+<ul>
+<li>KI wird in vielen Branchen eingesetzt und verändert die Arbeitswelt</li>
+<li>Arbeitnehmer benötigen neue Kompetenzen im Umgang mit KI:
+<ul>
+<li>Verständnis von KI-Systemen und deren Funktionsweise</li>
+<li>Kritisches Hinterfragen von KI-Ergebnissen</li>
+<li>Verantwortungsvoller Einsatz von KI</li>
+</ul></li>
+<li>Lebenslanges Lernen wird wichtiger, um mit der rasanten Entwicklung Schritt zu halten</li>
+</ul>
+<p><a href="https://www.bfh.ch/de/aktuell/storys/2024/ki-kompetenzen-arbeitnehmer-arbeitswelt/"><i class="bi-link " style="" role="img" aria-hidden="true"></i> Quelle</a></p>
+</section>
+<section id="bfh-orientierungshilfe" class="slide level2">
+<h2><a id="guide-for-lecturers"></a><i class="bi-bookmark-star " style="" role="img" aria-hidden="true"></i> BFH Orientierungshilfe</h2>
 <div class="callout callout-note no-icon callout-style-simple">
 <div class="callout-body">
 <div class="callout-content">
 <ul>
-<li><strong>BFH’s Stance</strong>: Technologies that support the learning process and are relevant in practice should be integrated into teaching.</li>
+<li><strong>Haltung der BFH</strong>: Technologies that support the learning process and are relevant in practice should be integrated into teaching.</li>
 <li><strong>Use of AI in Teaching</strong>: The majority of students will use AI tools. Students should learn to use technologies competently and to critically question them.</li>
 </ul>
 </div>
@@ -409,20 +425,15 @@ Andrew Ellis
 <p><br> <br></p>
 <p><a href="https://virtuelleakademie.ch/knowledge-base/ki-basierte-schreibtools-in-der-lehre-chatgpt-im-fokus/"><i class="bi-link " style="" role="img" aria-hidden="true"></i> Virtual Academy Knowledge Base</a> [more up-to-date than PDF]</p>
 <p><a href="https://bernerfachhochschule.sharepoint.com/sites/mybfh-BFH-News-de/SitePages/Nachrichten-K%C3%BCnstliche-Intelligenz-(KI)-in-der-Lehre.aspx"><i class="bi-link " style="" role="img" aria-hidden="true"></i> PDF</a></p>
+<!-- # What are Large Language Models (LLMs)? -->
 </section>
-
-<section>
-<section id="what-are-large-language-models-llms" class="title-slide slide level1 center">
-<h1>What are Large Language Models (LLMs)?</h1>
-
-</section>
-<section id="what-is-artifical-intelligence" class="slide level2">
-<h2>What is Artifical Intelligence?</h2>
+<section id="was-ist-künstliche-intelligenz" class="slide level2">
+<h2>Was ist Künstliche Intelligenz?</h2>
 <div class="columns">
 <div class="column" style="width:50%;">
 <p><img data-src="../assets/images/what-is-AI.svg" style="width:100.0%"></p>
 </div><div class="column" style="width:50%;">
-<p>A branch of computer science that aims to create machines that can perform tasks that typically require human intelligence.</p>
+<p>Die Künstliche Intelligenz ist ein Zweig der Informatik, der zum Ziel hat, Maschinen zu schaffen, die Aufgaben ausführen können welche normalerweise menschliche Intelligenz erfordern.</p>
 </div></div>
 <!-- ## What is Generative AI?
 
@@ -430,6 +441,10 @@ Generative AI uses machine learning to create complex statistical models of how 
 
 - Generative AI models learn from existing data.
 - Produce new data that resembles the original data: images, music, text, etc. -->
+</section>
+<section id="was-ist-chatgpt" class="slide level2">
+<h2>Was ist ChatGPT?</h2>
+<p>ChatGPT is a chatbot that uses a large language model to generate responses to user input.</p>
 </section>
 <section id="what-is-a-large-language-model" class="slide level2">
 <h2>What is a Large Language Model?</h2>
@@ -440,35 +455,69 @@ Generative AI uses machine learning to create complex statistical models of how 
 <p>An LLM is a type of generative AI model that is trained to predict the next word following the input (prompt).</p>
 </div></div>
 </section>
-<section id="embed" class="slide level2">
-<h2>Embed</h2>
-</section></section>
-<div class="quarto-embed-nb-cell" data-notebook="/Users/andrew/GitHub/sites/ki-wb-gesundheit/pages/main.qmd" data-notebook-title="Hands-On Practice: Prompting" data-notebook-cellid="4cc3acca-40a3-456d-91e5-d67a1d805354">
-<section id="hands-on-practice-prompting" class="title-slide slide level1 center">
-<h1>Hands-On Practice: Prompting</h1>
-<p><a href="https://github.com/awellis">Andrew Ellis</a> <a href="https://orcid.org/0000-0002-2788-936X"><img data-src="data:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAYAAAAf8/9hAAAAGXRFWHRTb2Z0d2FyZQBBZG9iZSBJbWFnZVJlYWR5ccllPAAAA2ZpVFh0WE1MOmNvbS5hZG9iZS54bXAAAAAAADw/eHBhY2tldCBiZWdpbj0i77u/IiBpZD0iVzVNME1wQ2VoaUh6cmVTek5UY3prYzlkIj8+IDx4OnhtcG1ldGEgeG1sbnM6eD0iYWRvYmU6bnM6bWV0YS8iIHg6eG1wdGs9IkFkb2JlIFhNUCBDb3JlIDUuMC1jMDYwIDYxLjEzNDc3NywgMjAxMC8wMi8xMi0xNzozMjowMCAgICAgICAgIj4gPHJkZjpSREYgeG1sbnM6cmRmPSJodHRwOi8vd3d3LnczLm9yZy8xOTk5LzAyLzIyLXJkZi1zeW50YXgtbnMjIj4gPHJkZjpEZXNjcmlwdGlvbiByZGY6YWJvdXQ9IiIgeG1sbnM6eG1wTU09Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC9tbS8iIHhtbG5zOnN0UmVmPSJodHRwOi8vbnMuYWRvYmUuY29tL3hhcC8xLjAvc1R5cGUvUmVzb3VyY2VSZWYjIiB4bWxuczp4bXA9Imh0dHA6Ly9ucy5hZG9iZS5jb20veGFwLzEuMC8iIHhtcE1NOk9yaWdpbmFsRG9jdW1lbnRJRD0ieG1wLmRpZDo1N0NEMjA4MDI1MjA2ODExOTk0QzkzNTEzRjZEQTg1NyIgeG1wTU06RG9jdW1lbnRJRD0ieG1wLmRpZDozM0NDOEJGNEZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wTU06SW5zdGFuY2VJRD0ieG1wLmlpZDozM0NDOEJGM0ZGNTcxMUUxODdBOEVCODg2RjdCQ0QwOSIgeG1wOkNyZWF0b3JUb29sPSJBZG9iZSBQaG90b3Nob3AgQ1M1IE1hY2ludG9zaCI+IDx4bXBNTTpEZXJpdmVkRnJvbSBzdFJlZjppbnN0YW5jZUlEPSJ4bXAuaWlkOkZDN0YxMTc0MDcyMDY4MTE5NUZFRDc5MUM2MUUwNEREIiBzdFJlZjpkb2N1bWVudElEPSJ4bXAuZGlkOjU3Q0QyMDgwMjUyMDY4MTE5OTRDOTM1MTNGNkRBODU3Ii8+IDwvcmRmOkRlc2NyaXB0aW9uPiA8L3JkZjpSREY+IDwveDp4bXBtZXRhPiA8P3hwYWNrZXQgZW5kPSJyIj8+84NovQAAAR1JREFUeNpiZEADy85ZJgCpeCB2QJM6AMQLo4yOL0AWZETSqACk1gOxAQN+cAGIA4EGPQBxmJA0nwdpjjQ8xqArmczw5tMHXAaALDgP1QMxAGqzAAPxQACqh4ER6uf5MBlkm0X4EGayMfMw/Pr7Bd2gRBZogMFBrv01hisv5jLsv9nLAPIOMnjy8RDDyYctyAbFM2EJbRQw+aAWw/LzVgx7b+cwCHKqMhjJFCBLOzAR6+lXX84xnHjYyqAo5IUizkRCwIENQQckGSDGY4TVgAPEaraQr2a4/24bSuoExcJCfAEJihXkWDj3ZAKy9EJGaEo8T0QSxkjSwORsCAuDQCD+QILmD1A9kECEZgxDaEZhICIzGcIyEyOl2RkgwAAhkmC+eAm0TAAAAABJRU5ErkJggg=="></a> (<a href="https://virtuelleakademie.ch">Virtuelle Akademie, Berner Fachhochschule</a>)<br>
-27 Jun, 2024</p>
-<blockquote>
-<p><strong>Tip</strong></p>
+<section id="wie-wird-eine-large-language-model-trainiert" class="slide level2">
+<h2>Wie wird eine Large Language Model trainiert?</h2>
+<p>Large Language Models (LLMs) are trained on vast amounts of text data from various sources like websites and books. The key steps are:</p>
+<ol type="1">
+<li>Collect a massive dataset of text.</li>
+<li>Clean and preprocess the text data.</li>
+<li>Break the text into smaller units called tokens.</li>
+<li>Use a neural network architecture like Transformers.</li>
+<li>Train the model to predict the next token based on the previous ones.</li>
+</ol>
+<p>The model learns patterns and relationships between words, allowing it to generate coherent text when prompted.</p>
+</section>
+<section id="instruction-following-and-alignment" class="slide level2">
+<h2>Instruction following and Alignment</h2>
+</section>
+<section id="wie-generiert-ein-llm-text" class="slide level2">
+<h2>Wie generiert ein LLM Text?</h2>
 <ul>
-<li><p>In general, it is advisable to improve your prompting strategy by <strong>iterating</strong>.</p></li>
-<li><p>Start with a simple prompt, see what the model generates, and then refine. Repeat this process until you are satisfied with the results.</p></li>
-<li><p>Once you have a good prompt, you can use it in a new chat session - in this way, the “failed” attempts will not be part of the context.</p></li>
+<li>Ein LLM erhält einen Prompt oder Starttext als Eingabe</li>
+<li>Es nutzt sein Training, um das wahrscheinlichste nächste Wort oder Token vorherzusagen</li>
+<li>Dieser Prozess wird wiederholt, wobei Wort für Wort generiert wird</li>
+<li>Bis der gewünschte Ausgabetext produziert ist</li>
 </ul>
-</blockquote>
 </section>
-
-<section>
-<section id="content" class="title-slide slide level1 center">
-<h1>Content</h1>
-
+<section id="textgenerierung" class="slide level2">
+<h2>Textgenerierung</h2>
+<ul>
+<li><p>LLMs generieren Text, indem sie Wort für Wort die wahrscheinlichste Fortsetzung basierend auf dem vorherigen Kontext vorhersagen</p></li>
+<li><p>Dieser Prozess wird wiederholt, bis der gewünschte Text vollständig generiert ist</p></li>
+<li><p>Die Vorhersagen basieren auf den Mustern, die das Modell während des Trainings gelernt hat</p></li>
+<li><p>Der generierte Text kann durch Anpassung von Parametern wie “Temperatur” beeinflusst werden, um kreativere oder kohärentere Ausgaben zu erhalten</p></li>
+<li><p>Ausrichtung ist der Prozess, um sicherzustellen, dass ein KI-System sich in einer Weise verhält, die mit menschlichen Werten übereinstimmt</p></li>
+<li><p>Dies beinhaltet, das Modell so zu trainieren, dass es Anweisungen folgt und die Generierung schädlicher oder voreingenommener Inhalte vermeidet</p></li>
+<li><p>Techniken für die Ausrichtung umfassen Belohnungsmodellierung, bei der das Modell trainiert wird, Antworten zu generieren, die mit menschlichen Präferenzen übereinstimmen, sowie verstärkendes Lernen, bei dem das Modell trainiert wird, Antworten zu generieren, die mit menschlichen Werten übereinstimmen</p></li>
+</ul>
 </section>
-<section id="some-text" class="slide level2">
-<h2>Some text</h2>
-
-<img data-src="presentation_files/figure-revealjs/4cc3acca-40a3-456d-91e5-d67a1d805354-1-../assets/images/LLM.svg" style="width:100.0%" class="r-stretch"><p>An LLM is a type of generative AI model that is trained to predict the next word following the input (prompt).</p>
+<section id="chatgpt" class="slide level2">
+<h2>ChatGPT</h2>
+<p>ChatGPT is a large language model trained on a vast amount of text data from the internet. However, it is not just a regular language model. ChatGPT has been further trained using reinforcement learning techniques to follow instructions and generate responses that are aligned with human values and preferences.</p>
+<p>This additional training helps ChatGPT to:</p>
+<ul>
+<li>Understand and follow the intent behind prompts and instructions</li>
+<li>Generate responses that are relevant, coherent, and avoid harmful or biased content</li>
+<li>Engage in multi-turn conversations and maintain context over multiple exchanges</li>
+</ul>
+</section>
+<section id="wie-generiert-ein-llm-text-1" class="slide level2">
+<h2>Wie generiert ein LLM Text?</h2>
+<ul>
+<li>An LLM takes in a prompt or starting text as input</li>
+<li>It uses its training to predict the most likely next word or token</li>
+<li>This process is repeated, generating one word at a time</li>
+<li>Until the desired output text is produced</li>
+</ul>
+</section>
+<section id="text-generation" class="slide level2">
+<h2>Text generation</h2>
+</section>
+<section id="questions" class="slide level2">
+<h2>Questions?</h2>
+<p>Thank you for your attention!</p>
+<p>Feel free to reach out with any questions or for further resources.</p>
 </section></section>
-</div>
 <section id="questions-discussion" class="title-slide slide level1 center">
 <h1>Questions / Discussion <i class="bi-chat-dots " style="" role="img" aria-hidden="true"></i></h1>
 
@@ -491,6 +540,20 @@ Schulhoff, Sander, Michael Ilie, Nishant Balepur, Konstantine Kahadze, Amanda Li
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
 <p><a href="../index.html">back to website <i class="bi-box-arrow-up-left " style="" role="img" aria-hidden="true"></i> </a></p>
+</div>
+</div>
+<div class="reveal-header">
+<div class="header-logo">
+<img data-src="../assets/bfh-logo.png">
+</div>
+<div class="sc-title">
+<p> </p>
+</div>
+<div class="header-text">
+<p>Berner Fachhochschule | Bern University of Applied Sciences</p>
+</div>
+<div class="sb-title">
+<p> </p>
 </div>
 </div>
 </section>
@@ -548,7 +611,7 @@ Schulhoff, Sander, Michael Ilie, Nishant Balepur, Konstantine Kahadze, Amanda Li
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: 'h.v',
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -589,7 +652,7 @@ Schulhoff, Sander, Michael Ilie, Nishant Balepur, Konstantine Kahadze, Amanda Li
         rtl: false,
 
         // see https://revealjs.com/vertical-slides/#navigation-mode
-        navigationMode: 'default',
+        navigationMode: 'linear',
 
         // Randomizes the order of slides each time the presentation loads
         shuffle: false,
@@ -653,7 +716,7 @@ Schulhoff, Sander, Michael Ilie, Nishant Balepur, Konstantine Kahadze, Amanda Li
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'fade',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
