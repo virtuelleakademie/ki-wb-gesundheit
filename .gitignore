@@ -147,6 +147,9 @@ ki-wb-gesundheit.code-workspace
 # R
 .Rproj.user
 .Rhistory
+*.RData
+*.rdx
+*.rdb
 
 # Quarto
 /.quarto/
