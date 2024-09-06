@@ -52,9 +52,8 @@ filters:
 ---
 
 
-# {{< bi map >}} Contents
+# {{< bi map >}} Inhalt
 
-<!-- - [Go to Guide for Lecturers](#guide-for-lecturers) -->
 - What are LLMs?
 - Understanding LLM capabilities and limitations
 - Fundamentals of prompting
@@ -64,10 +63,25 @@ filters:
 - Academic integrity
 - Conclusion
 
-# <a id="guide-for-lecturers"></a>{{< bi bookmark-star >}} Guide for Lecturers at BFH
+
+
+## KI-Kompetenzen für Arbeitnehmer in der Arbeitswelt
+
+- KI wird in vielen Branchen eingesetzt und verändert die Arbeitswelt
+- Arbeitnehmer benötigen neue Kompetenzen im Umgang mit KI:
+  - Verständnis von KI-Systemen und deren Funktionsweise
+  - Kritisches Hinterfragen von KI-Ergebnissen
+  - Verantwortungsvoller Einsatz von KI
+- Lebenslanges Lernen wird wichtiger, um mit der rasanten Entwicklung Schritt zu halten
+
+[{{< bi link >}} Quelle](https://www.bfh.ch/de/aktuell/storys/2024/ki-kompetenzen-arbeitnehmer-arbeitswelt/)
+
+
+
+## <a id="guide-for-lecturers"></a>{{< bi bookmark-star >}} BFH Orientierungshilfe
 
 :::{.callout-note}
-- **BFH’s Stance**: Technologies that support the learning process and are relevant in practice should be integrated into teaching.
+- **Haltung der BFH**: Technologies that support the learning process and are relevant in practice should be integrated into teaching.
 - **Use of AI in Teaching**: The majority of students will use AI tools. Students should learn to use technologies competently and to critically question them.
 :::
 
@@ -80,9 +94,11 @@ filters:
 [{{< bi link >}} PDF](https://bernerfachhochschule.sharepoint.com/sites/mybfh-BFH-News-de/SitePages/Nachrichten-K%C3%BCnstliche-Intelligenz-(KI)-in-der-Lehre.aspx)
 
 
-# What are Large Language Models (LLMs)?
 
-## What is Artifical Intelligence?
+
+<!-- # What are Large Language Models (LLMs)? -->
+
+## Was ist Künstliche Intelligenz?
 
 :::: {.columns}
 ::: {.column width="50%"}
@@ -90,7 +106,7 @@ filters:
 :::
 
 ::: {.column width="50%"}
-A branch of computer science that aims to create machines that can perform tasks that typically require human intelligence.
+Die Künstliche Intelligenz ist ein Zweig der Informatik, der zum Ziel hat, Maschinen zu schaffen, die Aufgaben ausführen können welche normalerweise menschliche Intelligenz erfordern.
 :::
 ::::
 
@@ -102,6 +118,9 @@ Generative AI uses machine learning to create complex statistical models of how 
 - Generative AI models learn from existing data.
 - Produce new data that resembles the original data: images, music, text, etc. -->
 
+## Was ist ChatGPT?
+
+ChatGPT is a chatbot that uses a large language model to generate responses to user input.
 
 ## What is a Large Language Model?
 
@@ -114,6 +133,65 @@ Generative AI uses machine learning to create complex statistical models of how 
 An LLM is a type of generative AI model that is trained to predict the next word following the input (prompt).
 :::
 ::::
+
+
+## Wie wird eine Large Language Model trainiert?
+Large Language Models (LLMs) are trained on vast amounts of text data from various sources like websites and books. The key steps are:
+
+1. Collect a massive dataset of text.
+2. Clean and preprocess the text data.
+3. Break the text into smaller units called tokens.
+4. Use a neural network architecture like Transformers.
+5. Train the model to predict the next token based on the previous ones.
+
+The model learns patterns and relationships between words, allowing it to generate coherent text when prompted.
+
+
+## Instruction following and Alignment
+## Wie generiert ein LLM Text?
+
+- Ein LLM erhält einen Prompt oder Starttext als Eingabe
+- Es nutzt sein Training, um das wahrscheinlichste nächste Wort oder Token vorherzusagen
+- Dieser Prozess wird wiederholt, wobei Wort für Wort generiert wird
+- Bis der gewünschte Ausgabetext produziert ist
+
+## Textgenerierung
+
+- LLMs generieren Text, indem sie Wort für Wort die wahrscheinlichste Fortsetzung basierend auf dem vorherigen Kontext vorhersagen
+- Dieser Prozess wird wiederholt, bis der gewünschte Text vollständig generiert ist
+- Die Vorhersagen basieren auf den Mustern, die das Modell während des Trainings gelernt hat
+- Der generierte Text kann durch Anpassung von Parametern wie "Temperatur" beeinflusst werden, um kreativere oder kohärentere Ausgaben zu erhalten
+
+
+- Ausrichtung ist der Prozess, um sicherzustellen, dass ein KI-System sich in einer Weise verhält, die mit menschlichen Werten übereinstimmt
+- Dies beinhaltet, das Modell so zu trainieren, dass es Anweisungen folgt und die Generierung schädlicher oder voreingenommener Inhalte vermeidet
+- Techniken für die Ausrichtung umfassen Belohnungsmodellierung, bei der das Modell trainiert wird, Antworten zu generieren, die mit menschlichen Präferenzen übereinstimmen, sowie verstärkendes Lernen, bei dem das Modell trainiert wird, Antworten zu generieren, die mit menschlichen Werten übereinstimmen
+
+
+## ChatGPT
+
+ChatGPT is a large language model trained on a vast amount of text data from the internet. However, it is not just a regular language model. ChatGPT has been further trained using reinforcement learning techniques to follow instructions and generate responses that are aligned with human values and preferences.
+
+This additional training helps ChatGPT to:
+
+- Understand and follow the intent behind prompts and instructions
+- Generate responses that are relevant, coherent, and avoid harmful or biased content
+- Engage in multi-turn conversations and maintain context over multiple exchanges
+
+
+
+
+## Wie generiert ein LLM Text?
+
+- An LLM takes in a prompt or starting text as input
+- It uses its training to predict the most likely next word or token
+- This process is repeated, generating one word at a time
+- Until the desired output text is produced
+
+## Text generation
+
+
+
 
 
 
