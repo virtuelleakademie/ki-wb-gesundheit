@@ -8,12 +8,11 @@
 <link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/light-border.css" rel="stylesheet">
 <link href="../site_libs/quarto-html/quarto-html.min.css" rel="stylesheet" data-mode="light">
-<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<link href="../site_libs/quarto-contrib/bootstrap-icons-1.11.1/all.css" rel="stylesheet"><meta charset="utf-8">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles"><meta charset="utf-8">
   <meta name="generator" content="quarto-1.5.57">
 
-  <meta name="author" content="Andrew Ellis">
-  <title>KI Weiterbildung Gesundheit // – Präsentation: KI Weiterbildung Lindenhofspital</title>
+  <meta name="author" content="Your Name">
+  <title>KI Weiterbildung Gesundheit // – Introduction to Large Language Models</title>
   <meta name="apple-mobile-web-app-capable" content="yes">
   <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
   <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no, minimal-ui">
@@ -31,34 +30,13 @@
       margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
       vertical-align: middle;
     }
-    /* CSS for citations */
-    div.csl-bib-body { }
-    div.csl-entry {
-      clear: both;
-      margin-bottom: 0em;
-    }
-    .hanging-indent div.csl-entry {
-      margin-left:2em;
-      text-indent:-2em;
-    }
-    div.csl-left-margin {
-      min-width:2em;
-      float:left;
-    }
-    div.csl-right-inline {
-      margin-left:2em;
-      padding-left:1em;
-    }
-    div.csl-indent {
-      margin-left: 2em;
-    }  </style>
+  </style>
   <link rel="stylesheet" href="../site_libs/revealjs/dist/theme/quarto.css">
   <link href="../site_libs/revealjs/plugin/quarto-line-highlight/line-highlight.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-chalkboard/font-awesome/css/all.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/reveal-chalkboard/style.css" rel="stylesheet">
-  <link href="../site_libs/revealjs/plugin/reveal-attribution/attribution.css" rel="stylesheet">
   <link href="../site_libs/revealjs/plugin/quarto-support/footer.css" rel="stylesheet">
   <script type="application/json" class="js-hypothesis-config">
   {
@@ -356,9 +334,9 @@
       margin-right: 0; 
     }
   </style>
-<meta property="og:title" content="Präsentation: KI Weiterbildung Lindenhofspital – KI Weiterbildung Gesundheit //">
+<meta property="og:title" content="Introduction to Large Language Models – KI Weiterbildung Gesundheit //">
 <meta property="og:site_name" content="KI Weiterbildung Gesundheit //">
-<meta name="twitter:title" content="Präsentation: KI Weiterbildung Lindenhofspital – KI Weiterbildung Gesundheit //">
+<meta name="twitter:title" content="Introduction to Large Language Models – KI Weiterbildung Gesundheit //">
 <meta name="twitter:creator" content="@awellis">
 <meta name="twitter:card" content="summary_large_image">
 </head>
@@ -366,102 +344,175 @@
   <div class="reveal">
     <div class="slides">
 
-<section id="title-slide" data-background-opacity="1" class="quarto-title-block center">
-  <h1 class="title">Präsentation: KI Weiterbildung Lindenhofspital</h1>
+<section id="title-slide" class="quarto-title-block center">
+  <h1 class="title">Introduction to Large Language Models</h1>
 
 <div class="quarto-title-authors">
 <div class="quarto-title-author">
 <div class="quarto-title-author-name">
-Andrew Ellis 
+Your Name 
 </div>
 </div>
 </div>
 
-  <p class="date">09 September, 2024</p>
 </section>
-<section id="contents" class="title-slide slide level1 center">
-<h1><i class="bi-map " style="" role="img" aria-hidden="true"></i> Contents</h1>
-<!-- - [Go to Guide for Lecturers](#guide-for-lecturers) -->
+<section id="what-are-large-language-models-llms" class="slide level2">
+<h2>What are Large Language Models (LLMs)?</h2>
+<aside class="notes">
+<p>Explain the process of how LLMs generate responses</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="llms-probability-based-text-generation" class="slide level2">
+<h2>LLMs: Probability-Based Text Generation</h2>
 <ul>
-<li>What are LLMs?</li>
-<li>Understanding LLM capabilities and limitations</li>
-<li>Fundamentals of prompting</li>
-<li>Break</li>
-<li>LLMs in the classroom</li>
-<li>Essential skills</li>
-<li>Academic integrity</li>
-<li>Conclusion</li>
+<li>LLMs predict the most likely next word</li>
+<li>Predictions are context-dependent</li>
+<li>No actual understanding or knowledge base</li>
 </ul>
+<aside class="notes">
+<p>Emphasize that LLMs don’t “know” facts, but predict based on patterns</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-
-<section id="guide-for-lecturers-at-bfh" class="title-slide slide level1 center">
-<h1><a id="guide-for-lecturers"></a><i class="bi-bookmark-star " style="" role="img" aria-hidden="true"></i> Guide for Lecturers at BFH</h1>
-<div class="callout callout-note no-icon callout-style-simple">
-<div class="callout-body">
-<div class="callout-content">
+<section id="limitations-of-llms" class="slide level2">
+<h2>Limitations of LLMs</h2>
 <ul>
-<li><strong>BFH’s Stance</strong>: Technologies that support the learning process and are relevant in practice should be integrated into teaching.</li>
-<li><strong>Use of AI in Teaching</strong>: The majority of students will use AI tools. Students should learn to use technologies competently and to critically question them.</li>
+<li>No long-term memory</li>
+<li>Limited short-term memory (context window)</li>
+<li>Can produce incorrect or biased information</li>
+<li>No real-world understanding or common sense</li>
 </ul>
-</div>
-</div>
-</div>
-<p><br> <br></p>
-<p><a href="https://virtuelleakademie.ch/knowledge-base/ki-basierte-schreibtools-in-der-lehre-chatgpt-im-fokus/"><i class="bi-link " style="" role="img" aria-hidden="true"></i> Virtual Academy Knowledge Base</a> [more up-to-date than PDF]</p>
-<p><a href="https://bernerfachhochschule.sharepoint.com/sites/mybfh-BFH-News-de/SitePages/Nachrichten-K%C3%BCnstliche-Intelligenz-(KI)-in-der-Lehre.aspx"><i class="bi-link " style="" role="img" aria-hidden="true"></i> PDF</a></p>
+<aside class="notes">
+<p>Discuss each limitation with examples</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-
-<section>
-<section id="what-are-large-language-models-llms" class="title-slide slide level1 center">
-<h1>What are Large Language Models (LLMs)?</h1>
-
+<section id="applications-of-llms" class="slide level2">
+<h2>Applications of LLMs</h2>
+<ul>
+<li>Text generation</li>
+<li>Language translation</li>
+<li>Summarization</li>
+<li>Question answering</li>
+<li>Code generation</li>
+</ul>
+<aside class="notes">
+<p>Provide examples for each application - Text generation: Generating articles, stories, or creative writing - Language translation: Translating text from one language to another - Summarization: Summarizing long documents or articles into concise summaries - Question answering: Providing answers to questions based on information from a knowledge base - Code generation: Generating code snippets or entire programs based on natural language prompts</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="what-is-artifical-intelligence" class="slide level2">
-<h2>What is Artifical Intelligence?</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="../assets/images/what-is-AI.svg" style="width:100.0%"></p>
-</div><div class="column" style="width:50%;">
-<p>A branch of computer science that aims to create machines that can perform tasks that typically require human intelligence.</p>
-</div></div>
-<!-- ## What is Generative AI?
-
-Generative AI uses machine learning to create complex statistical models of how data are generated.
-
-- Generative AI models learn from existing data.
-- Produce new data that resembles the original data: images, music, text, etc. -->
+<section id="ethical-considerations" class="slide level2">
+<h2>Ethical Considerations</h2>
+<ul>
+<li>Bias in training data</li>
+<li>Potential for misinformation</li>
+<li>Privacy concerns</li>
+<li>Impact on jobs and education</li>
+</ul>
+<aside class="notes">
+<p>Discuss the importance of addressing these ethical issues</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-<section id="what-is-a-large-language-model" class="slide level2">
-<h2>What is a Large Language Model?</h2>
-<div class="columns">
-<div class="column" style="width:50%;">
-<p><img data-src="../assets/images/LLM.svg" style="width:100.0%"></p>
-</div><div class="column" style="width:50%;">
-<p>An LLM is a type of generative AI model that is trained to predict the next word following the input (prompt).</p>
-</div></div>
-</section></section>
-<section id="questions-discussion" class="title-slide slide level1 center">
-<h1>Questions / Discussion <i class="bi-chat-dots " style="" role="img" aria-hidden="true"></i></h1>
-
+<section id="best-practices-for-using-llms" class="slide level2">
+<h2>Best Practices for Using LLMs</h2>
+<ol type="1">
+<li>Verify information</li>
+<li>Be aware of biases</li>
+<li>Use clear and specific prompts</li>
+<li>Understand the limitations</li>
+<li>Consider ethical implications</li>
+</ol>
+<aside class="notes">
+<p>Elaborate on each best practice</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
 </section>
-
-<section id="references" class="title-slide slide level1 smaller scrollable" data-background-color="#D8DEE9">
-<h1>References</h1>
-<div id="refs" class="references csl-bib-body hanging-indent" data-entry-spacing="0" role="list">
-<div id="ref-bowenTeachingAI2024" class="csl-entry" role="listitem">
-Bowen, José Antonio, and C. Edward Watson. 2024. <em>Teaching with <span>AI</span></em>. Johns Hopkins University Press. <a href="https://doi.org/10.56021/9781421449227">https://doi.org/10.56021/9781421449227</a>.
-</div>
-<div id="ref-langCheatingLessons2013a" class="csl-entry" role="listitem">
-Lang, James M. 2013. <span>“Cheating <span>Lessons</span>.”</span> Harvard University Press. 2013. <a href="https://www.hup.harvard.edu/books/9780674724631">https://www.hup.harvard.edu/books/9780674724631</a>.
-</div>
-<div id="ref-schulhoffPromptReportSystematic2024" class="csl-entry" role="listitem">
-Schulhoff, Sander, Michael Ilie, Nishant Balepur, Konstantine Kahadze, Amanda Liu, Chenglei Si, Yinheng Li, et al. 2024. <span>“The <span>Prompt Report</span>: <span>A Systematic Survey</span> of <span>Prompting Techniques</span>.”</span> June 6, 2024. <a href="http://arxiv.org/abs/2406.06608">http://arxiv.org/abs/2406.06608</a>.
-</div>
-</div>
+<section id="the-future-of-llms" class="slide level2">
+<h2>The Future of LLMs</h2>
+<ul>
+<li>Improved accuracy and reliability</li>
+<li>Enhanced multimodal capabilities</li>
+<li>Better alignment with human values</li>
+<li>Integration with other AI technologies</li>
+</ul>
+<aside class="notes">
+<p>Discuss potential developments and their implications</p>
+<style type="text/css">
+        span.MJX_Assistive_MathML {
+          position:absolute!important;
+          clip: rect(1px, 1px, 1px, 1px);
+          padding: 1px 0 0 0!important;
+          border: 0!important;
+          height: 1px!important;
+          width: 1px!important;
+          overflow: hidden!important;
+          display:block!important;
+      }</style></aside>
+</section>
+<section id="questions" class="slide level2">
+<h2>Questions?</h2>
+<p>Thank you for your attention!</p>
+<p>Feel free to reach out with any questions or for further resources.</p>
 
 <div class="quarto-auto-generated-content">
 <div class="footer footer-default">
-<p><a href="../index.html">back to website <i class="bi-box-arrow-up-left " style="" role="img" aria-hidden="true"></i> </a></p>
+
 </div>
 </div>
 </section>
@@ -476,7 +527,6 @@ Schulhoff, Sander, Michael Ilie, Nishant Balepur, Konstantine Kahadze, Amanda Li
   <script src="../site_libs/revealjs/plugin/reveal-menu/menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-menu/quarto-menu.js"></script>
   <script src="../site_libs/revealjs/plugin/reveal-chalkboard/plugin.js"></script>
-  <script src="../site_libs/revealjs/plugin/reveal-attribution/attribution.js"></script>
   <script src="../site_libs/revealjs/plugin/quarto-support/support.js"></script>
   
 
@@ -492,12 +542,12 @@ Schulhoff, Sander, Michael Ilie, Nishant Balepur, Konstantine Kahadze, Amanda Li
       // https://revealjs.com/config/
       Reveal.initialize({
 'controlsAuto': true,
-'previewLinksAuto': true,
+'previewLinksAuto': false,
 'pdfSeparateFragments': false,
 'autoAnimateEasing': "ease",
 'autoAnimateDuration': 1,
 'autoAnimateUnmatched': true,
-'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":true,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true,"sticky":true,"keyboard":true,"autoOpen":true,"width":"normal","numbers":true},
+'menu': {"side":"left","useTextContentForMissingTitles":true,"markers":false,"loadIcons":false,"custom":[{"title":"Tools","icon":"<i class=\"fas fa-gear\"></i>","content":"<ul class=\"slide-menu-items\">\n<li class=\"slide-tool-item active\" data-item=\"0\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.fullscreen(event)\"><kbd>f</kbd> Fullscreen</a></li>\n<li class=\"slide-tool-item\" data-item=\"1\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.speakerMode(event)\"><kbd>s</kbd> Speaker View</a></li>\n<li class=\"slide-tool-item\" data-item=\"2\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.overview(event)\"><kbd>o</kbd> Slide Overview</a></li>\n<li class=\"slide-tool-item\" data-item=\"3\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.togglePdfExport(event)\"><kbd>e</kbd> PDF Export Mode</a></li>\n<li class=\"slide-tool-item\" data-item=\"4\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleChalkboard(event)\"><kbd>b</kbd> Toggle Chalkboard</a></li>\n<li class=\"slide-tool-item\" data-item=\"5\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.toggleNotesCanvas(event)\"><kbd>c</kbd> Toggle Notes Canvas</a></li>\n<li class=\"slide-tool-item\" data-item=\"6\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.downloadDrawings(event)\"><kbd>d</kbd> Download Drawings</a></li>\n<li class=\"slide-tool-item\" data-item=\"7\"><a href=\"#\" onclick=\"RevealMenuToolHandlers.keyboardHelp(event)\"><kbd>?</kbd> Keyboard Help</a></li>\n</ul>"}],"openButton":true},
 'chalkboard': {"buttons":true},
 'smaller': false,
  
@@ -506,10 +556,10 @@ Schulhoff, Sander, Michael Ilie, Nishant Balepur, Konstantine Kahadze, Amanda Li
 
         // Help the user learn the controls by providing hints, for example by
         // bouncing the down arrow when they first encounter a vertical slide
-        controlsTutorial: true,
+        controlsTutorial: false,
 
         // Determines where controls appear, "edges" or "bottom-right"
-        controlsLayout: 'bottom-right',
+        controlsLayout: 'edges',
 
         // Visibility rule for backwards navigation arrows; "faded", "hidden"
         // or "visible"
@@ -519,7 +569,7 @@ Schulhoff, Sander, Michael Ilie, Nishant Balepur, Konstantine Kahadze, Amanda Li
         progress: true,
 
         // Display the page number of the current slide
-        slideNumber: 'h.v',
+        slideNumber: 'c/t',
 
         // 'all', 'print', or 'speaker'
         showSlideNumber: 'all',
@@ -560,7 +610,7 @@ Schulhoff, Sander, Michael Ilie, Nishant Balepur, Konstantine Kahadze, Amanda Li
         rtl: false,
 
         // see https://revealjs.com/vertical-slides/#navigation-mode
-        navigationMode: 'default',
+        navigationMode: 'linear',
 
         // Randomizes the order of slides each time the presentation loads
         shuffle: false,
@@ -624,7 +674,7 @@ Schulhoff, Sander, Michael Ilie, Nishant Balepur, Konstantine Kahadze, Amanda Li
         previewLinks: false,
 
         // Transition style (none/fade/slide/convex/concave/zoom)
-        transition: 'none',
+        transition: 'slide',
 
         // Transition speed (default/fast/slow)
         transitionSpeed: 'default',
@@ -669,7 +719,7 @@ Schulhoff, Sander, Michael Ilie, Nishant Balepur, Konstantine Kahadze, Amanda Li
         },
 
         // reveal.js plugins
-        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, RevealAttribution, QuartoSupport,
+        plugins: [QuartoLineHighlight, PdfExport, RevealMenu, RevealChalkboard, QuartoSupport,
 
           RevealMath,
           RevealNotes,
