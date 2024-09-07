@@ -14,7 +14,7 @@ lightbox: auto
 
 {{< bi link >}} [Begleitdokument: KI Weiterbildung](../assets/begleitdokument-KI-weiterbildung.pdf)
 
-{{< bi link >}} [Präsentation: KI in Pflegepraxis und Berufsbildung](../assets/2024-09-09_Künstliche-Intelligenz-Pflegepraxis-Berufsbildung.pdf)
+{{< bi link >}} [Präsentation: KI in Pflegepraxis und Berufsbildung](../assets/2024-09-09_KI-Pflegepraxis-Berufsbildung.pdf)
 
 
 ## {{< bi brush >}} Übungen
