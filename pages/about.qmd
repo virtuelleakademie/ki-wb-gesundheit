@@ -24,19 +24,19 @@ about:
 
 :::{.callout-note appearance="simple"}
 
-- 14:00 Check-In, Ergebnisse Umfrage – Madeleine Bernet
+- **14:00** Check-In, Ergebnisse Umfrage – Madeleine Bernet
 
-- 14:30 Fachinput zum Thema KI – Andrew Ellis
+- **14:30** Fachinput zum Thema KI – Andrew Ellis
 
-- 15:15 Pause
+- **15:15** Pause
 
-- 15:45 Konkrete Praxisbeispiele aus der Praxis – Christoph Golz 
+- **15:45** Konkrete Praxisbeispiele aus der Praxis – Christoph Golz 
 
-- 16:15 Praktisches Üben 
+- **16:15** Praktisches Üben 
 
-- 16:45 Take-Home-Message und Evaluation 
+- **16:45** Take-Home-Message und Evaluation 
 
-- 17:00 Ende 
+- **17:00** Ende 
 
 :::
 
