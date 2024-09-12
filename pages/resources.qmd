@@ -4,6 +4,11 @@ format: html
 bibliography: ../bibliography.bib
 ---
 
+## Chatbots
+
+- [HuggingChat](https://huggingface.co/chat/): Eine Open-Source Alternative zu ChatGPT
+- [Microsoft Copilot](https://copilot.microsoft.com/): In Bing integrierter Chatbot
+
 ## KI Orientierungshilfe der BFH
 
 - [KI-basierte Schreibtools in der Lehre – ChatGPT im Fokus](https://bernerfachhochschule.sharepoint.com/sites/mybfh-BFH-News-de/SitePages/Nachrichten-K%C3%BCnstliche-Intelligenz-(KI)-in-der-Lehre.aspx)
