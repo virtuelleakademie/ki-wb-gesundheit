@@ -45,9 +45,12 @@ website:
         menu:
           - text: "Begleitdokument: KI Weiterbildung"
             file: assets/begleitdokument-KI-weiterbildung.pdf
+          - text: "Präsentation: KI Schulung"
+            file: assets/KI_Schulung_20250909.pdf 
           - text: "Präsentation: KI in Pflegepraxis und Berufsbildung"
             file: assets/2024-09-09_KI-Pflegepraxis-Berufsbildung.pdf
-          
+          - text: "Präsentation: Konkrete Praxisbeispiele"
+            file: assets/KI_Pflege.pdf
 
       - icon: brush #pencil-square
         text: "Übungen"
@@ -74,7 +77,7 @@ website:
       - icon: wrench-adjustable #tools
         text: "Links"
         menu:
-          - text: "BFH Ressourcen"
+          - text: "Ressourcen"
             file: pages/resources.qmd
           # - text: "Tools"
           #   file: pages/tools.qmd
