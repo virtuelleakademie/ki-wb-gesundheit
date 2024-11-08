@@ -12,14 +12,24 @@ lightbox: auto
 
 ## {{< bi file-slides >}} Dokumente
 
-{{< bi link >}} [Begleitdokument: KI Weiterbildung](../assets/begleitdokument-KI-weiterbildung.pdf)
+{{< bi link >}} [Präsentation: Einführung](../assets/KI_Schulung_20251111.pdf )
 
 {{< bi link >}} [Präsentation: KI in Pflegepraxis und Berufsbildung](../assets/2024-09-09_KI-Pflegepraxis-Berufsbildung.pdf)
+
+{{< bi link >}} [Begleitdokument: KI Weiterbildung](../assets/begleitdokument-KI-weiterbildung.pdf)
 
 
 ## {{< bi brush >}} Übungen
 
-{{< bi link >}} [Praktisches Üben](../assets/uebungen.pdf)
+{{< bi link >}} [Praktisches Üben](../assets/uebungen-2.pdf)
+
+{{< bi link >}} [Gesprächsprotokoll](../assets/1602_FP_6_Sem_alle Prozesse.pdf)
+
+{{< bi link >}} [Vorlage Förderungsplan](../assets/foerderungsplan-vorlage.pdf)
+
+{{< bi link >}} [Taxonomieraster: Kompetenzentwicklung anhand der Niveaus und Perspektiven](../assets/Taxonomieraster_Typ_I.pdf)
+
+{{< bi link >}} [Kriterienraster](../assets/Kriterienraster_alle%20Praxismodule.pdf)
 
 
 ## {{< bi house-door >}} Take-home messages

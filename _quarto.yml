@@ -43,14 +43,14 @@ website:
       - icon: file-slides
         text: "Dokumente" 
         menu:
-          - text: "Begleitdokument: KI Weiterbildung"
-            file: assets/begleitdokument-KI-weiterbildung.pdf
           - text: "Präsentation: KI Schulung"
-            file: assets/KI_Schulung_20250909.pdf 
+            file: assets/KI_Schulung_20251111.pdf 
           - text: "Präsentation: KI in Pflegepraxis und Berufsbildung"
             file: assets/2024-09-09_KI-Pflegepraxis-Berufsbildung.pdf
-          - text: "Präsentation: Konkrete Praxisbeispiele"
-            file: assets/KI_Pflege.pdf
+          - text: "Begleitdokument: KI Weiterbildung"
+            file: assets/begleitdokument-KI-weiterbildung.pdf
+          # - text: "Präsentation: Konkrete Praxisbeispiele"
+          #   file: assets/KI_Pflege.pdf
 
       - icon: brush #pencil-square
         text: "Übungen"
@@ -58,9 +58,16 @@ website:
           # - text: "Activities"
           #   file: pages/activities.qmd
           - text: "Praktisches Üben"
-            file: assets/uebungen.pdf
-          # - text: "Activity"
-          #   file: pages/activity.qmd
+            file: assets/uebungen-2.pdf
+          - text: "Gesprächsprotokoll"
+            file: assets/1602_FP_6_Sem_alle Prozesse.pdf
+          - text: "Vorlage Förderungsplan"
+            file: assets/foerderungsplan-vorlage.pdf
+          - text: "Taxonomieraster: Kompetenzentwicklung anhand der Niveaus und Perspektiven"
+            file: assets/Taxonomieraster_Typ_I.pdf
+          - text: "Kriterienraster"
+            file: assets/Kriterienraster_alle Praxismodule.pdf
+
 
       # - icon: book
       #   text: "Tutorials"
